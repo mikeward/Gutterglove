@@ -71,7 +71,7 @@ $t_show_post = t_get_option ("t_show_post");
 			</ul>
    <a class="contact-us-action" href="contact-us">Receive More Information</a>
    </div><!-- #reasons-container -->
-      </div><!-- #client-reviews -->
+      </div><!-- #sidebar -->
 
    </div>
    
