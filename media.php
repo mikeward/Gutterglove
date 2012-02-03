@@ -11,6 +11,9 @@
      <?php while (have_posts()) : the_post(); ?>							
 					
 	<h1 class="page"><?php the_title(); ?></h1>
+    
+    <h2>Product Photo Gallery</h2>
+    
      			<div class="post">
 				<div class="entry">
                      <?php t_show_video($post->ID); ?>
