@@ -33,8 +33,6 @@ $t_show_post = t_get_option ("t_show_post");
 
 <div id="main">		
 	<div class="columns">      
-
-	
 	
         <div class="narrowcolumn">
      	<h2 class="title">Our Stainless Steel Mesh Gutter Guards</h2>
@@ -67,7 +65,7 @@ $t_show_post = t_get_option ("t_show_post");
 				<li>Highest rated gutter guard product by leading consumer magazine</li>
 				<li>Millions of feet of happy customers</li>
 				<li>Peace of mind to no more gutter cleaning</li>
-				<li>Local representation by local Gutterglove dealer</li>
+				<li>Representation by local Gutterglove dealer</li>
 			</ul>
    <a class="contact-us-action" href="contact-us">Receive More Information</a>
    </div><!-- #reasons-container -->
