@@ -1,0 +1,20 @@
+Version 3.4.2
+Removed all deprecated WP functions
+
+Version 3.4.1
+Updated Feedburner widget. Minor code changes.
+
+Version 3.3
+New Screenshot.png added
+
+Version 3.2
+Theme fixes
+
+Version 3.1
+New Framework
+
+Version 3.0
+Updated to support all WP 3.0 features
+
+Version 1.0
+Jun 10, 2010

@@ -1,0 +1,11 @@
+insert below in footer right under action strip:
+
+
+		<div id="twitter">
+
+		<?php echo $before_title . $title . $after_title; ?>
+<a href="http://www.twitter.com/dcstudios/" class="tweet">@Gutterglove | </a>
+		<ul id="twitter_update_list"><li></li></ul>	
+		<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/dcstudios.json?callback=twitterCallback2&amp;count=1"></script>
+		</div>
