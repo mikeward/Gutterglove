@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<testimonials>
+	<item>
+		<content>This has to be the most awesome app I've ever used!</content>
+		<author-name>John Doe</author-name>
+		<author-url>jdoe.com</author-url>
+	</item>
+	<item>
+		<content>Simply amazing! It solved my problem. I highly recommend it.</content>
+		<author-name>John Smith</author-name>
+		<author-url>smith.com</author-url>
+	</item>
+	<item>
+		<content>A tremendous success. It is like walking on sunshine compared to its competitors.</content>
+		<author-name>John Smith</author-name>
+	</item>
+</testimonials>
