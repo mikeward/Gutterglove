@@ -4,7 +4,7 @@ Theme Name:    Gutterglove Corporate Main
 Theme URI:     http://dreamcu.be
 Description:   Gutterglove Corporate Theme
 Version:       3.2
-Author:        MikeWard
+Author:        Mikel Ward
 Author URI:    http://www.dreamcubestudios.com
 Tags:          dark, grey, blue, white, red, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, theme-options
 ------------------------------------------------------------------------
@@ -143,12 +143,23 @@ a.post-edit-link { background: #FFF; border: 1px #CCC solid; margin: -3px 3px -2
 #main { width: 960px; padding: 0; margin: 0; }
 #main-subfill { background: #fff; margin-top: -10px; padding: 20px 15px;}
 #main-subpage { background: #fff url(images/background/home_divider_bg_lt.png) -210px -65px no-repeat; margin-top: -10px; padding: 35px 0 20px 15px;}
-#main-products-compare { background: #fff; margin-top: -10px; padding: 0 0 0px; height: auto; position: relative; }
+#main-products-compare { background-color: #fff; margin-top: -10px; padding: 0 0 0px; height: auto; position: relative; }
 #main-products { background: #fff url(images/background/sidebar_divider.png) 365px 420px no-repeat; margin-top: -10px; padding: 0 0 20px; height: auto; position: relative; }
 #product-pg-case { padding: 30px 15px; margin-bottom: 25px; background: url(images/background/product_pg_container3.png) 0 -33px no-repeat; position: relative; z-index: 1; } 
 #product-pg-case-ib { padding: 30px 15px; margin-bottom: 25px; background: url(images/background/product_pg_container_ib.png) 0 -33px no-repeat; position: relative; z-index: 1; } 
 .div-slice { background: url(images/background/sidebar_divider.png) 580px 0px no-repeat; }
+.div-slice-products { background: url(images/background/sidebar_divider.png) 640px 0px no-repeat; }
+.div-slice-productsR { background: url(images/background/sidebar_dividerR.png) 259px 0px no-repeat; }
+.title-grade { background: url(images/background/home_divider_bg_lt.png) -260px -65px no-repeat; }
 body.home #main { background: url(images/background/home_divider_bg.png) 0 225px no-repeat; }
+.wallpaper-wrap { display: block; height: 100px; width: 330px; margin: 5px 0; }
+.wallpaper-wrap .img { background: #3d3d3d; display: block; height: 60px; width: 330px; }
+.social-block { background: #e2e2e2; width: 122px; display: inline-block; text-align: center; font-family: Arial, Helvetica, Sans-serif; padding: 10px 20px; margin: 5px 0 25px; color: #333; text-shadow: -1px -1px 0 #f5f5f5; }
+.sb-facebook { border-top: 1px #3b5999 solid; }
+.sb-facebook:hover { border-top: 2px #3b5999 solid; margin: 4px 0 25px; }
+.sb-twitter { border-top: 1px #3da1ec solid; }
+.sb-twitter:hover { border-top: 2px #3da1ec solid; margin: 4px 0 25px; }
+
 
 .entry h1, .entry h2, .entry h3, .entry h4, .entry h5 {font-weight:normal; line-height:135%; margin:25px 0 10px; padding-bottom:5px;}
 .notice {background: #FFF6BF; border-top: 2px solid #FFD324; border-bottom: 2px solid #FFD324; text-align: center; margin: 10px auto; padding: 5px 20px;}
@@ -231,6 +242,8 @@ ul#top_nav a:hover, ul#top_nav a.selected { border-top: 1px #fff solid; border-l
 
 .page-template-product-comparison-php .columns { background: url(images/background/columns.jpg) repeat-y; }
 .columns {width: 960px; border-bottom:0px solid #777; margin-top: 10px; padding: 0 0 20px; }
+.columns-products {width: 960px; border-bottom:0px solid #777; margin-top: 10px; padding: 20px 0; }
+.columns-products h1.page { padding-left: 15px; padding-top: 25px; }
 .thumb {float:left;}
 .narrowcolumn {float: left; padding: 12px 0 40px; margin: 0; width: 550px;}
 .narrowcolumn-bare {float: left; padding: 0px 0 40px; margin: 0; width: 550px;}
@@ -267,6 +280,7 @@ span.author { background: transparent; }
 #sidebar h2 {margin: 0px 0px 10px 0px; padding: 0;}
 #sidebar a { }
 #sidebar ul li.widget {float:left; width:360px; padding:10px 10px 30px 10px; -moz-border-radius-bottomleft:5px; -moz-border-radius-bottomright:5px; -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; margin: 0 20px 15px 0; list-style: none; }
+#sidebar ul li { list-style: none; }
 #sidebar ul #meta.widget  {background:none;}
 #sidebar ul li.widget a {text-decoration:none;}
 #sidebar ul li.widget a:hover {text-decoration:underline;}
@@ -474,6 +488,16 @@ span.fad { color: #fff; font-size: 22px; padding: 15px 0 0 8px; display: inline;
 	z-index: 100;
 }
 
+.page #topproduct-header #product-action table {
+width: 960px;
+margin: 0;
+padding: 0;
+height: 45px;
+position: relative;
+top: -8px;
+z-index: 100;
+}
+
 body.page #product-action table {
 	width: 960px;
 	margin: 0 0 -7px;
@@ -502,8 +526,8 @@ body.page #product-action table {
 #product-action td span a, #product-action-pp td span a, #product-action td span a:visited, #product-action-pp td span a:visited {
 	float: left;
 	list-style: none;
-	width: 319px;
-	margin: 0;
+	width: 306px;
+	margin: 0 6px 0 6px;
 	height: 40px;
 	font-size: 20px;
 	font-family: Arial, Helvetica, Arial;
@@ -556,15 +580,23 @@ body.page #product-action table {
 #product-action td span:hover a, #product-action-pp td span:hover a {
 	float: left;
 	list-style: none;
-	margin-right: 0;
 	height: 40px;
 	text-decoration: none;
-	color: #232323;
+	color: #fff;
 	background: url(images/product_bttn.jpg) 0 -45px repeat-x;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 	-moz-border-radius-bottomleft: 8px;
 	-moz-border-radius-bottomright: 8px;
+}
+
+#product-action td span a.pro-prod {
+	background: #444; 
+}
+
+#product-action td span a.pro-prod:hover {
+	background: #4c4c4c; 
+	color: #fff;
 }
 
 table.product-details {
@@ -595,7 +627,7 @@ table.product-details th {
 
 table.product-details-sub th {
 	background-color: #223442; 
-	border-top: 1px #ccc;
+	border-top: 1px #ccc solid;
 	padding: 5px;
 	color: #fff;
 	border-top-left-radius: 8px;
@@ -609,16 +641,16 @@ table.product-details td {
 	padding: 5px 5px 5px 10px;
 	font-size: 12px;
 	font-family: Arial, Helvetica, Sans-serif;
-	border-right: 1px #e2e2e2 solid;
+	border-right: 0px #e2e2e2 solid;
 	width: 319px;
 	}
 
 table.product-details-sub td {
-	padding: 5px;
+	padding: 5px 15px;
 	font-size: 12px;
 	font-family: Arial, Helvetica, Sans-serif;
 	border-right: 1px #e2e2e2 solid;
-	width: 319px;
+	width: 299px;
 	}
 	
 table.product-details  tr.red td {
@@ -680,15 +712,19 @@ table.product-details td.img a img {
 	font-family: Arial, Helvetica, Sans-serif;
 	background-color: #f0f0f0;
 	border-top: 1px #e2e2e2 solid;
-	border-radius: 5px; -moz-border-radius: 5px;
+	border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0;
 	height: 150px;
 	width: 305px;
-	margin-right: -3px;
+	margin: 15px -3px -23px 0;
 	padding: 0;
 	overflow: hidden;
 	position: relative;
 	left: -3px;
 	}
+	
+td.drop-grade {
+	background: url(images/background/sidebar_divider.png) 0 -320px no-repeat; 
+}
 	
 table.product-details-sub td.img a img {
 	font-size: 12px;
@@ -1107,9 +1143,9 @@ cite .note, cite .note a { font-size:10px; font-weight:bold; color:#454547;}
 h3#reply-title {margin: 18px 0;}
 h3#comments-title, h3#reply-title {color: #4D4D4F; font-size: 22px; font-weight: normal; margin-bottom: 0;}
 #cancel-comment-reply-link {font-size: 12px; font-weight: normal; line-height: 18px;}
-#respond textarea {width: 98%;}
-#respond input[type="text"], #respond textarea {background: #F9F9F9; border: 1px solid #CCCCCC; box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
-}
+#respond textarea {width: 97%;}
+#respond input[type="text"], #respond textarea {background: #F9F9F9; border: 1px solid #CCCCCC; box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);}
+p.comment-notes { padding-bottom: 20px; color: #333; }
 #respond .form-allowed-tags { color: #888888; font-size: 12px; line-height: 18px;}
 #respond .form-submit { margin: 12px 0;}
 li.comment #respond .form-allowed-tags {display:none;}

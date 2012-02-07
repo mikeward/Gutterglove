@@ -57,8 +57,10 @@ body.page #product-action table {
 
 
 #product-action td span a, #product-action-pp td span a, #product-action td span a:visited, #product-action-pp td span a:visited {
-	width: 319px;
-	margin: 0;
+	float: left;
+	list-style: none;
+	width: 306px;
+	margin: 0 6px 0 6px;
 	height: 40px;
 	font-size: 20px;
 	font-family: Arial, Helvetica, Arial;
@@ -71,14 +73,13 @@ body.page #product-action table {
 	-moz-border-radius-bottomleft: 8px;
 	-moz-border-radius-bottomright: 8px;
 	z-index: 1025;
-	float: left;
-	list-style-type: none; 
-	}
-
-#product-action a, #product-action-pp a {
-	padding: 6px 0;
+	display: inline;
+	position: relative; top: -2px; left: -2px;
 }
 
+#product-action a, #product-action-pp  a {
+	padding: 6px 0;
+}
 
 #product-action td span.selected a, #product-action-pp td span.selected a {
 	float: left;
@@ -108,11 +109,10 @@ body.page #product-action table {
 	-moz-border-radius-bottomleft: 8px;
 	-moz-border-radius-bottomright: 8px;
 }
+
 #product-action td span:hover a, #product-action-pp td span:hover a {
 	float: left;
 	list-style: none;
-	width: 319px;
-	margin-right: 1px;
 	height: 40px;
 	text-decoration: none;
 	color: #232323;
@@ -123,11 +123,16 @@ body.page #product-action table {
 	-moz-border-radius-bottomright: 8px;
 }
 
+#product-action td span a.pro-prod {
+	background: #444 repeat-x; 
+}
+
 table.product-details {
 	width: 960px;
 	margin: 15px 0;
 	padding: 5px;
 	clear: both;
+	border-collapse:collapse;
 	}
 
 table.product-details-sub {
@@ -150,7 +155,7 @@ table.product-details th {
 
 table.product-details-sub th {
 	background-color: #223442; 
-	border-top: 1px #ccc;
+	border-top: 1px #ccc solid;
 	padding: 5px;
 	color: #fff;
 	border-top-left-radius: 8px;
@@ -161,23 +166,23 @@ table.product-details-sub th {
 	}
 	
 table.product-details td {
-	padding: 5px;
+	padding: 5px 5px 5px 10px;
 	font-size: 12px;
 	font-family: Arial, Helvetica, Sans-serif;
-	border-right: 1px #e2e2e2 solid;
+	border-right: 0px #e2e2e2 solid;
 	width: 319px;
 	}
 
 table.product-details-sub td {
-	padding: 5px;
+	padding: 5px 15px;
 	font-size: 12px;
 	font-family: Arial, Helvetica, Sans-serif;
 	border-right: 1px #e2e2e2 solid;
-	width: 319px;
+	width: 299px;
 	}
 	
 table.product-details  tr.red td {
-	padding: 5px;
+	padding: 5px 10px;
 	font-size: 12px;
 	font-family: Arial, Helvetica, Sans-serif;
 	background-color: #e8c5c5;
@@ -186,7 +191,7 @@ table.product-details  tr.red td {
 	}
 
 table.product-details-sub  tr.red td {
-	padding: 5px;
+	padding: 5px 10px;
 	font-size: 12px;
 	font-family: Arial, Helvetica, Sans-serif;
 	background-color: #e8c5c5;
@@ -195,7 +200,7 @@ table.product-details-sub  tr.red td {
 	}
 	
 table.product-details tr.lgrey td {
-	padding: 5px;
+	padding: 5px 10px;
 	font-size: 12px;
 	font-family: Arial, Helvetica, Sans-serif;
 	background-color: #f9f9f9;
@@ -204,7 +209,7 @@ table.product-details tr.lgrey td {
 	}
 
 table.product-details-sub tr.lgrey td {
-	padding: 5px;
+	padding: 5px 10px;
 	font-size: 12px;
 	font-family: Arial, Helvetica, Sans-serif;
 	background-color: #f0f0f0;
@@ -213,7 +218,7 @@ table.product-details-sub tr.lgrey td {
 	}
 	
 table.product-details tr.grey td {
-	padding: 5px;
+	padding: 5px 10px;
 	font-size: 12px;
 	font-family: Arial, Helvetica, Sans-serif;
 	background-color: #e2e2e2;
@@ -222,7 +227,7 @@ table.product-details tr.grey td {
 	}
 	
 table.product-details-sub tr.grey td {
-	padding: 5px;
+	padding: 5px 10px;
 	font-size: 12px;
 	font-family: Arial, Helvetica, Sans-serif;
 	background-color: #e2e2e2;
@@ -235,12 +240,19 @@ table.product-details td.img a img {
 	font-family: Arial, Helvetica, Sans-serif;
 	background-color: #f0f0f0;
 	border-top: 1px #e2e2e2 solid;
+	border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0;
 	height: 150px;
 	width: 305px;
-	margin: 0;
+	margin: 15px -3px -23px 0;
 	padding: 0;
 	overflow: hidden;
+	position: relative;
+	left: -3px;
 	}
+	
+td.drop-grade {
+	background: url(images/background/sidebar_divider.png) 0 -320px no-repeat; 
+}
 	
 table.product-details-sub td.img a img {
 	font-size: 12px;
@@ -272,6 +284,7 @@ span.size {
 	padding: 2px 4px;
 	margin: 0 0 0 10px;
 	}
+
 	
 
 
