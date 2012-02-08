@@ -892,7 +892,8 @@ select {
     border:1px #e2e2e2 solid;
 	background: #f0f0f0 url('images/canvas-list-nav-item-arrow-.gif') no-repeat scroll 95% 50%;
 	width: 150px; height: 23px;
-	padding: 3px 0 0; position: relative; top: 4px;
+	padding: 3px 0 0; margin-bottom: 8px;
+	position: relative; top: 4px;
 	display: inline-block;
 }
 

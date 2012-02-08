@@ -25,17 +25,21 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
                     <div class="clear"></div>
                 </div>                  
         <h2>Email Us Online</h2>
-        <h3 class="cfinclude-b nospace">Anytime, 7 Days A Week</h3>        
-                
+        <h3 class="cfinclude-b nospace">Anytime, 7 Days A Week.</h3>        
+        <p>Fill out the form below to contact us by email at any time.</p><br />
                 <form id="sample-form">
-<input type="text" class="fad-name" placeholder="First Name" /><br />
-<input type="text" class="fad-email" placeholder="Email" /><br />
-<input type="text" class="fad-phone" placeholder="Phone" /><br />
-<input type="text" class="fad-city" placeholder="City" /><br />
-                 
+				<label>Name</label><br />
+<input type="text" class="fad-name" /><br />
+<label>Email</label><br />
+<input type="text" class="fad-email" /><br />
+<label>Phone</label><br />
+<input type="text" class="fad-phone" /><br />
+<label>City</label><br />
+<input type="text" class="fad-city" /><br />
+<label>State</label><br />          
                   <div class="my-skinnable-select">
       <select name="name">
-<option value="" selected>State</OPTION>
+<option value="" selected>Select</OPTION>
 <option VALUE="AL">Alabama</option>
 <option VALUE="AK">Alaska</option>
 <option VALUE="AZ">Arizona</option>
@@ -101,10 +105,10 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
 <option VALUE="NU">Nunavut</option>
 <option VALUE="YT">Yukon</option>
       </select>
-    </div>
-                 
-<input type="text" class="fad-zip" placeholder="Zip" />
-<button class="submit-std blk-pattern action-blue cu-place">Locate Dealer</button>
+    </div><br />
+<label>Zip</label><br />          
+<input type="text" class="fad-zip" />
+<button class="submit-std blk-pattern action-blue cu-place">Submit</button>
 </form>
                 
                 

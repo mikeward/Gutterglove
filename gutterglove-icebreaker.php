@@ -105,7 +105,7 @@ if(class_exists('bcn_breadcrumb_trail'))
 		<p>Nam placerat nibh eget augue ultricies eu venenatis sem dignissim. Pellentesque sollicitudin feugiat tempor. Fusce eu nunc erat. Aliquam et libero quam. </p>
 
 		<h3>Construction</h3>
-		<p> Aliquam et libero quam. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. </p>
+		<p>Aliquam et libero quam. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. </p>
 		
 		<h3>How It Works</h3>
 		<div id="containing-outbox">

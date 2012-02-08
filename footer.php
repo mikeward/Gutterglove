@@ -14,22 +14,22 @@
 <div class="footer-case"> 
 	<h2>Gutterglove Products</h2> 
 		<ul> 
-			<li><a href="product-comparison">Gutterglove Products</a></li> 
-			<li><a href="media">Product Photo Gallery</a></li> 
-			<li><a href="news">News</a></li> 
-			<li><a href="rain-harvesting-systems">Rain Harvesting System</a></li> 
-			<li><a href="Support">Support Center</a></li> 
-			<li><a href="testimonials">Testimonials</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/gutter-guards">Gutterglove Products</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/media">Product Photo Gallery</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/news">News</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/rain-harvesting-systems">Rain Harvesting System</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/Support">Support Center</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/testimonials">Testimonials</a></li> 
 		</ul> 
 </div><!-- footer-case --> 
  
 	<div class="footer-case"> 
 	<h2>Gutterglove Business</h2> 
 		<ul> 
-			<li><a href="business">Become A Dealer</a></li> 
-			<li><a href="business/cad-drawings">CAD Drawings</a></li> 
-			<li><a href="#">Literature Downloads</a></li> 
-			<li><a href="#">Dealer Site</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/business">Become A Dealer</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/business/cad-drawings">CAD Drawings</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/">Literature Downloads</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/dealer-dashboard">Dealer Dashboard</a></li> 
 		</ul> 
 	</div><!-- footer-case --> 
  
@@ -46,10 +46,10 @@
 	<div class="footer-case"> 
 	<h2>Contact Us</h2> 
 		<ul> 
-			<li><a href="contact-us">Contact Us Online</a></li> 
-			<li><a href="contact-us">Request A Quote</a></li> 
-			<li><a href="terms-of-use">Terms Of Use</a> | <a href="privacy-policy">Privacy Policy</a></li> 
-			<li><a href="find-a-dealer">Locate a Dealer</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/contact-us">Contact Us Online</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/contact-us">Request A Quote</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/terms-of-use">Terms Of Use</a> | <a href="privacy-policy">Privacy Policy</a></li> 
+			<li><a href="<?php get_site_url(); ?>/test/find-a-dealer">Locate a Dealer</a></li> 
 			<br /> 
 			<li>Copyright 2011 Gutterglove.</li> 
 			<li>All Rights Reserved.</li> 
