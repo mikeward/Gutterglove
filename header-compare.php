@@ -73,29 +73,7 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 <body <?php body_class(); ?>>
 
 <div id="header-container">
-<div id="head-section">
-<div id="header">
-
-<a href="<?php bloginfo('url'); ?>/" name="top" title="Call us today for a FREE quote: 877-662-5644"><img class="gutterglove-phone" src="<?php echo get_template_directory_uri(); ?>/images/gutterglove_phone.png" alt="877-662-5644" /></a>
-
-<div id="navigation_action">
-	<?php t_get_logo ('<div id="logo">', '</div>', 'gutterglove_logo.png', true); ?>
-    <div id="navigation_top">
-    <ul id="top_nav">
-    <li><a href="contact-us">Contact</a></li>
-    <li><a href="media">Media</a></li>
-    <li><a href="news">News</a></li>
-    <li><a href="about">About</a></li>
-    <li><a href="<?php echo get_template_directory_uri(); ?>/gutter-guards">Products</a></li>
-    </ul>
-    </div><!-- #navigation_top -->
-</div><!-- #navigation_action -->
-
-</div>
-
-
-
-</div><!-- #head-section -->
+<?php include ('header-nav.php'); ?>
 </div><!-- #header-container -->
 
 <div class="content-pad">

@@ -1,2 +1,2 @@
-Cufon.replace('.post .news-case h2 a, .timeblock span, h2, h3, h4, span.fad, #top_nav li a, h1.page, .cu-place, #co-timeline li .digit-title, .cfinclude', {hover:true, fontWeight: 200});
+Cufon.replace('.post .news-case h2 a, .timeblock span, h2, h3, h4, span.fad, #top_nav li a, h1.page, .cu-place, #co-timeline li .digit-title, .cfinclude, .ggproduct-features a', {hover:true, fontWeight: 200});
 Cufon.replace('h2.title, .client-reviews h2, a.viewgg, .cfinclude-b',{hover: true, fontWeight: 700});

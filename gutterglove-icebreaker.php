@@ -49,12 +49,11 @@ if(class_exists('bcn_breadcrumb_trail'))
 <div id="product-action">
 
 	<table>
+		<td><span><a class="cfinclude" href="gutterglove-ultra">Gutterglove Ultra</a></span></td>
+	
+		<td><span><a class="cfinclude" href="gutterglove-pro">Gutterglove Pro</a></span></td>
 
-		<td><span><a href="gutterglove-pro"><img src="<?php echo get_template_directory_uri(); ?>/images/gutterglove_pro_bttn_action.png" alt="Gutterglove Pro" /></a></span></td>
-
-		<td><span><a href="gutterglove-ultra"><img src="<?php echo get_template_directory_uri(); ?>/images/gutterglove_ultra_bttn_action.png" alt="Gutterglove Ultra" /></a></span></td>
-
-		<td><span class="selected"><a href="gutterglove-icebreaker"><img src="<?php echo get_template_directory_uri(); ?>/images/gutterglove_icebreaker_bttn_action.png" alt="Gutterglove IceBreaker" /></a></span></td>
+		<td><span class="selected cfinclude"><a href="gutterglove-icebreaker">Gutterglove IceBreaker</a></span></td>
 
 	</table>
 
@@ -109,9 +108,30 @@ if(class_exists('bcn_breadcrumb_trail'))
 		<p> Aliquam et libero quam. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. </p>
 		
 		<h3>How It Works</h3>
-		<div class="product-diagram">
- 
-		</div>
+		<div id="containing-outbox">
+
+			<span class="toggle-image"></span>
+
+        <div id="product-specs">
+        
+            <ol id="bullet-specs">
+            <li>Fine stainless steel mesh filters out leaves, pine needles, seed pods and roof sand grit.</li>
+            <li>Gutterglove installs on a variety or roof types.</li>
+            <li>Anodized aluminum frame supports the mesh and channels rain water to the gutter.</li>
+            <li>Gutterglove installs on your existing gutters.</li>
+            </ol><!-- #bullet-specs -->
+            
+            
+            <ol id="bullet-specs-toggle">
+            <li>Leaves, pine needles and roof sand grit roll off your gutter and to the ground.</li>
+            <li>Nothing but rainwater filters through to your gutter.</li>
+            <li>Thickest support frame of any gutter guard.</li>
+            <li>Filters over 150 inches of hourly rain-fall.</li>
+            </ol><!-- #bullet-specs -->
+        
+        </div><!-- #product-specs -->
+
+</div><!-- #containing-outbox -->
 	</div>
 
 	<div class="right-fill-case">
