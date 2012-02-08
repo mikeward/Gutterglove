@@ -783,16 +783,16 @@ img.case-right { float: right; width: 400px; height: 265px; margin: 10px -15px 1
 .product-step ul li a:hover { color: #333; text-decoration: none; background: #fff url(images/action_arrow.png) 2px 3px no-repeat; border-radius: 3px; -moz-border-radius: 3px; padding: 6px 20px 6px 25px; border-top: 1px #fff solid; }
 
 #containing-outbox { margin: 0; width: 300px; padding: 15px 20px 20px; border-top: 0px #ccc solid; transition:.2s; -webkit-transition-duration:.2s; -moz-transition-duration:.2s; -o-transition:.2s; }
-ol#bullet-specs { display: block; }
+ol#bullet-specs { display: block;}
 ol#bullet-specs-toggle { display: none; }
-ol#bullet-specs, ol#bullet-specs-toggle { list-style: upper-alpha; }
-ol#bullet-specs li, ol#bullet-specs-toggle li { font-size: 12px; line-height: 16px; padding: 5px 10px 5px 5px; margin-left: 20px; list-style: upper-alpha; color: #555; }
+ol#bullet-specs li span, ol#bullet-specs-toggle li span { padding: 0px 5px 0 0; }
+ol#bullet-specs li, ol#bullet-specs-toggle li { font-size: 12px; line-height: 16px; padding: 5px 10px 5px 0; margin-left: 0px; list-style: none; color: #555; }
 .space { padding: 10px 0; }
 .toggle-image { width: 264px; height: 340px; overflow: hidden; background: #333 url(images/product_model_demo_img.jpg) no-repeat; display: block; transition:.3s; -webkit-transition-duration:.3s; -moz-transition-duration:.3s; -o-transition:.3s; }
 #containing-outbox:hover h3 { display: none; }
 #containing-outbox:hover .toggle-image { background: url(images/product_model_demo_img.jpg) 0 -340px no-repeat; }
-#containing-outbox:hover ol#bullet-specs { display: none; list-style: upper-alpha; }
-#containing-outbox:hover ol#bullet-specs-toggle  { display: block; list-style: upper-alpha; }
+#containing-outbox:hover ol#bullet-specs { display: none; }
+#containing-outbox:hover ol#bullet-specs-toggle  { display: block; }
 
 .page-template-gutterglove-pro-php #topproduct-header { background: #3a383b url(images/ggpro-pgbg.jpg) no-repeat; height: 200px; width: 960px; margin:  35px 0 80px -15px; border-top: 1px #676767 solid; }
 .page-template-gutterglove-pro-php *+html #topproduct-header { background: #3a383b url(images/ggpro-pgbg.jpg) no-repeat; height: 200px; width: 960px; position: relative; left: -15px; top: 40px; margin:  35px 0 140px; border-top: 1px #676767 solid; }

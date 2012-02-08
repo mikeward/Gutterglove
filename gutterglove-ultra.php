@@ -115,18 +115,18 @@ if(class_exists('bcn_breadcrumb_trail'))
         <div id="product-specs">
         
             <ol id="bullet-specs">
-            <li>Fine stainless steel mesh filters out leaves, pine needles, seed pods and roof sand grit.</li>
-            <li>Gutterglove installs on a variety or roof types.</li>
-            <li>Anodized aluminum frame supports the mesh and channels rain water to the gutter.</li>
-            <li>Gutterglove installs on your existing gutters.</li>
+            <li><span>A.</span>Fine stainless steel mesh filters out leaves, pine needles, seed pods and roof sand grit.</li>
+            <li><span>B.</span>Gutterglove installs on a variety or roof types.</li>
+            <li><span>C.</span>Anodized aluminum frame supports the mesh and channels rain water to the gutter.</li>
+            <li><span>D.</span>Gutterglove installs on your existing gutters.</li>
             </ol><!-- #bullet-specs -->
             
             
             <ol id="bullet-specs-toggle">
-            <li>Leaves, pine needles and roof sand grit roll off your gutter and to the ground.</li>
-            <li>Nothing but rainwater filters through to your gutter.</li>
-            <li>Thickest support frame of any gutter guard.</li>
-            <li>Filters over 150 inches of hourly rain-fall.</li>
+            <li><span>A.</span>Leaves, pine needles and roof sand grit roll off your gutter and to the ground.</li>
+            <li><span>B.</span>Nothing but rainwater filters through to your gutter.</li>
+            <li><span>C.</span>Thickest and most durable support frame of any gutter guard.</li>
+            <li><span>D.</span>Filters over 150 inches of hourly rain-fall.</li>
             </ol><!-- #bullet-specs -->
         
         </div><!-- #product-specs -->
