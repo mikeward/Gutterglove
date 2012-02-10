@@ -179,6 +179,8 @@ span.important-title {background:#FFFFFF none repeat scroll 0 0; color:#F75342; 
 .action-blue { background-color: #3D7294; }
 .action-blue:hover { background-color: #3d3d3d; }
 .cc-grey { color: #666; }
+.cc-white { color: #fff; }
+.cc-lblue { color: #d1edff; }
 .cc-green { color: #32902F; margin-top: -10px; margin-bottom: 10px; }
 .nospace { margin-top: -10px; margin-bottom: 10px; }
 .cc-greyrounded {
@@ -193,6 +195,9 @@ color: #fff;
 .drk-bg {
 	background: #CCC; border-radius: 5px; -moz-border-radius: 5px;
 }
+
+.leftpos { float: left; }
+.rightpos { float: right; }
 
 /* Begin Lists */
 html > body .entry ul {margin-left: 0px; padding: 0 0 0 30px; list-style: none; padding-left: 10px; text-indent: 0px;}
@@ -276,8 +281,10 @@ ul#top_nav li a.round-right { border-radius: 0 5px 5px 0; -moz-border-radius: 0 
 .home .post .entry { margin-top: 30px; display: block; }
 span.author { background: transparent; }
 
+.dealer_gold { color: #bd8924; }
+
 #sidebar {float:right; padding:0 0 10px 10px; margin-right: 15px; width:350px; color:#454547; }
-.page #sidebar, .single #sidebar { margin-top: 47px; }
+.page-template-dealer-dashboard-php #sidebar, { margin-top: 47px; }
 .page-template-about-php #sidebar {margin-top: 10px; }
 #sidebar h2 {margin: 0px 0px 10px 0px; padding: 0;}
 #sidebar a { }
@@ -1228,8 +1235,35 @@ li.comment #respond #comment-form p {padding:5px;}
 }
 
 
+/***** Dealer Dashboard *****/
 
+#dash-wrap {
+	width: 960px;
+	height: 370px;
+	overflow: hidden;
+	margin: 10px 0 40px -15px;
+	position: relative;
+	background: #f0f0f0;
+}
 
+.current-user { display: block; border-bottom: 1px #f0f0f0 solid; padding-bottom: 5px; margin-bottom: 5px; }
+
+.dealer-controls { float: right; margin-right: 20px; padding-right: 10px; height: 40px; width: 340px; position: relative; top: -45px; }
+.dealer-controls a.order { border-radius: 5px; -moz-border-radius: 5px; background: #3d7294; padding: 7px 27px; color: #fff; font-size: 16px; text-decoration: none; display: inline-block; }
+.dealer-controls a.order:hover { background: #3d3d3d; }
+.dealer-controls a.signstatus { color: #3d7294; padding-left:10px; margin-top: -10px; font-size: 16px; text-decoration: none; } 
+.dealer-controls a.signstatus:hover {color: #3d3d3d; }
+
+#dealerinfo-case { float: right; width: 330px; height: 150px; clear: both; margin-right: 39px; font-size: 14px; }
+#usermessage-update { background: #3d7294 url(images/background/block_pattern.png) repeat; border-radius: 5px; -moz-border-radius: 5px; padding: 0 15px; margin-bottom: 10px; width: 530px; min-height: 105px; float: left; }
+#usermessage-update .post .entry p { color: #f0f0f0; font-size: 12px; line-height: 14px; margin: 0; }	
+#usermessage-update .post .entry { margin: 0; }
+#usermessage-update .title { color: #fff; padding: 0; margin: -10px 0 0; }
+#usermessage-update h2.cc-lblue { font-size: 18px; margin-top: 7px; }
+
+.cert-center { background: url(images/background/certification_wrapbg.gif) repeat-x; width: 300px; height: 335px; margin: 17px 50px 0 0; border: 1px #e2e2e2 solid; border-radius: 5px; -moz-border-radius: 5px; }
+	
+/***** About Timeline *****/
 
 .sociales {
 	text-align: center;
