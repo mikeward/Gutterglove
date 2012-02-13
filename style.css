@@ -1237,14 +1237,7 @@ li.comment #respond #comment-form p {padding:5px;}
 
 /***** Dealer Dashboard *****/
 
-#dash-wrap {
-	width: 960px;
-	height: 370px;
-	overflow: hidden;
-	margin: 10px 0 40px -15px;
-	position: relative;
-	background: #f0f0f0;
-}
+#dash-wrap { width: 960px; height: 370px; overflow: hidden; margin: 10px 0 40px -15px; position: relative; background: #f0f0f0; }
 
 .current-user { display: block; border-bottom: 1px #f0f0f0 solid; padding-bottom: 5px; margin-bottom: 5px; }
 
@@ -1255,14 +1248,20 @@ li.comment #respond #comment-form p {padding:5px;}
 .dealer-controls a.signstatus:hover {color: #3d3d3d; }
 
 #dealerinfo-case { float: right; width: 330px; height: 150px; clear: both; margin-right: 39px; font-size: 14px; }
-#usermessage-update { background: #3d7294 url(images/background/block_pattern.png) repeat; border-radius: 5px; -moz-border-radius: 5px; padding: 0 15px; margin-bottom: 10px; width: 530px; min-height: 105px; float: left; }
+#usermessage-update { background: #3d7294 url(images/background/block_pattern.png) repeat; border-radius: 5px; -moz-border-radius: 5px; border: 1px #356483 solid; padding: 0 15px; margin-bottom: 10px; width: 530px; min-height: 105px; float: left; }
 #usermessage-update .post .entry p { color: #f0f0f0; font-size: 12px; line-height: 14px; margin: 0; }	
 #usermessage-update .post .entry { margin: 0; }
 #usermessage-update .title { color: #fff; padding: 0; margin: -10px 0 0; }
 #usermessage-update h2.cc-lblue { font-size: 18px; margin-top: 7px; }
 
 .cert-center { background: url(images/background/certification_wrapbg.gif) repeat-x; width: 300px; height: 335px; margin: 17px 50px 0 0; border: 1px #e2e2e2 solid; border-radius: 5px; -moz-border-radius: 5px; }
-	
+.cert-title { background: url(images/certifiedbadge-sm.png) 5px 5px no-repeat; height: 150px; min-width: 150px; padding: 30px 0 0 160px; color: #085271; font-size: 26px;  }	
+.status { margin-left: 5px; border-radius: 5px; -moz-border-radius: 5px; padding: 5px 12px; font-size: 32px; display: block; }
+.ds-certified { color: #378f38; }
+.ds-ncertified { color: #bbb; }
+.cert-message { color: #666; display: block; padding-left: 20px; margin-top: -5px; }
+.cert-center .download { displaY: inline-block; background: #085271; color: #fff; padding: 5px 14px; margin-top: 10px; }
+
 /***** About Timeline *****/
 
 .sociales {

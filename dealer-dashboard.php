@@ -48,7 +48,11 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/dd-bannerad.jpg" alt="" />
 
 <div class="rightpos cert-center">
-
+<h2 class="cert-title">Certification Center</h2>
+<span class="clear"></span>
+<span class="cfinclude status ds-certified">Certified</span>
+<span class="cert-message">You are currently a certified Gutterglove Installer.</span>
+<a class="download" href="#" title="Download Certificate">Download Certificate</a>
 </div><!-- .cert-center -->
 </div><!-- #dash-wrap -->
 
@@ -67,9 +71,9 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
     <h2>Download Materials</h2>
 
 <ul class="where-about">
-<li>ABC News</li>
-<li>CBS News including "The Early Show"</li>
-<li>NBC News</li>
+<li>CAD Files</li>
+<li>Dealer Agreement</li>
+<li>Standard Install Client Contract</li>
 <li>DIY Show "Cool Tools"</li>
 <li>DIY Show "This New House"</li>
 <li>Discovery Channel "Renovation Nation"</li>

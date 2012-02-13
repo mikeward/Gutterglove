@@ -5,20 +5,20 @@
 /* Header and Nav */
 #header {height: 96px;}
 #head-section { width: 1000px; margin: 0 auto; padding: 0; position: relative; z-index: 1002; }
-#header-container { width: 1320px; height: 120px; margin: 0 auto; padding: 0px; position: relative; z-index: 1001; background: url(images/background/header_bg.jpg) center 0 no-repeat; } 
-a .gutterglove-phone { border: none; float: right; margin: 6px 20px 0 0; }
+#header-container { width: 1150px; height: 120px; margin: 0 auto; padding: 0px; position: relative; z-index: 1001; background: url(images/background/header_bg.jpg) center 0 no-repeat; } 
+.gutterglove-phone { border: none; float: right; margin: 10px 20px 0 0; font-size: 24px; color: #fff; font-family: 'Carme', Helvetica, Arial, sans-serif; }
+.gutterglove-phone span { position: relative; top: 1px; font-weight: bold; }
 .content-pad {width: 960px; text-align: left; margin: 0 auto; padding:0; position: relative; z-index: 1000;}
 .top { margin: 15px 0px 30px 0px; float:left; width: 980px; border-bottom:1px solid #EEEEEE; border-top:1px solid #EEEEEE;}
 .bot {background:url(images/main-bot.png) no-repeat; height:13px; clear:left; margin: 0px auto 0 auto; width: 995px;}
-#logo {padding-top: 7px; float: left; margin-left: 0px;}
-#navigation_action { margin-top: 15px; float: left; width: 960px; padding: 0; position: relative; left: 20px; }
+#logo { padding-left: 10px; float: left; margin-left: 0px;}
+#navigation_action { background: url(images/background/navbar_wrapbg.gif) repeat-x; margin-top: 23px; float: left; width: 960px; height: 49px; padding: 0; position: relative; left: 20px; border-radius: 5px 10px 10px 5px; -moz-border-radius: 5px 10px 10px 5px; }
 #navigation_top { float: right; width: 700px; }
-ul#top_nav { position: relative; float: right; margin-top: 13px; list-style: none; }
+ul#top_nav { position: relative; float: right; margin: 0; list-style: none; }
 ul#top_nav li { display: inline; list-style: none; }
-ul#top_nav a { border-left: 1px #5b5b5b solid; list-style-type: none; background: url(images/menu_bttn.jpg) no-repeat; width: 139px; height: 50px; display: inline; float: right; padding: 9px 0 0; margin: 0; font-size: 18px; font-family: 'Carme', sans-serif; color: #50504f; text-decoration: none; text-align: center; }
-ul#top_nav a:hover, ul#top_nav a.selected { border-left: 1px #6a6a6a solid; list-style-type: none; background: url(images/menu_bttn.jpg) 0 -59px no-repeat; width: 139px; height: 50px; display: inline; float: right; padding: 9px 0 0; margin: 0; font-size: 18px; font-family: 'Carme', sans-serif; color: #761a1b; text-decoration: none; text-align: center; }
-
-
+ul#top_nav a { border-left: 1px #3d3d3d solid; list-style-type: none; background: #3D3D3D url(images/background/topmenu_bg.gif) repeat-x; width: 139px; height: 35px; display: inline; float: right; padding: 14px 0 0; margin: 0; font-size: 18px; font-family: 'Carme', Helvetica, Arial, sans-serif; color: #fff; text-decoration: none; text-align: center; }
+ul#top_nav a:hover, ul#top_nav a.selected { border-top: 0px #fff solid; border-left: 1px #6a6a6a solid; background: #232323; color: #ccc; }
+ul#top_nav li a.round-right { border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; }
 
 /* =Products
 
@@ -40,11 +40,11 @@ margin-bottom: 50px;
 
 body.page #product-action table {
 	width: 960px;
-	margin: 0 0 -4px;
+	margin: 0 0 -7px;
 	padding: 0;
 	height: 45px;
 	position: relative;
-	z-index: 100;
+	z-index: 101;
 }
 
 #product-action-pp {
@@ -55,13 +55,20 @@ body.page #product-action table {
 }
 
 
+#product-action utd, #product-action-pp td {
+	width: 960px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	list-style-type:none;
+}
 
 #product-action td span a, #product-action-pp td span a, #product-action td span a:visited, #product-action-pp td span a:visited {
 	float: left;
 	list-style: none;
 	width: 306px;
-	margin: 0 6px 0 6px;
-	height: 40px;
+	padding-top: 10px; margin: 0px 6px;
+	height: 35px;
 	font-size: 20px;
 	font-family: Arial, Helvetica, Arial;
 	text-align: center;
@@ -84,11 +91,14 @@ body.page #product-action table {
 #product-action td span.selected a, #product-action-pp td span.selected a {
 	float: left;
 	list-style: none;
-	width: 319px;
-	margin-right: 0px;
-	height: 40px;
+	width: 306px;
+	padding-top: 10px; margin: 0px 6px;
+	height: 35px;
+	font-size: 20px;
+	font-family: Arial, Helvetica, Arial;
 	text-decoration: none;
-	color: #232323;
+	color: #fff;
+	text-align: center;
 	background: url(images/background/product-bttn_active.jpg) 0 repeat-x;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
@@ -99,10 +109,10 @@ body.page #product-action table {
 #product-action td span.selected a:hover, #product-action-pp td span.selected a:hover {
 	float: left;
 	list-style: none;
-	margin-right: 0px;
-	height: 40px;
+	padding-top: 10px; margin: 0px 6px;
+	height: 35px;
 	text-decoration: none;
-	color: #232323;
+	color: #f0f0f0;
 	background: url(images/background/product-bttn_active.jpg) 0 -10px repeat-x;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
@@ -113,9 +123,10 @@ body.page #product-action table {
 #product-action td span:hover a, #product-action-pp td span:hover a {
 	float: left;
 	list-style: none;
-	height: 40px;
+	padding-top: 10px; margin: 0px 6px;
+	height: 35px;
 	text-decoration: none;
-	color: #232323;
+	color: #fff;
 	background: url(images/product_bttn.jpg) 0 -45px repeat-x;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
@@ -124,8 +135,14 @@ body.page #product-action table {
 }
 
 #product-action td span a.pro-prod {
-	background: #444 repeat-x; 
+	background: #444; 
 }
+
+#product-action td span a.pro-prod:hover {
+	background: #4c4c4c; 
+	color: #fff;
+}
+
 
 table.product-details {
 	width: 960px;
@@ -338,15 +355,16 @@ span.size {
 #action-strip { height: 40px; margin-top: 5px; margin-left: -10px; position: fixed; bottom: 0;  background: #4f4f4f; width: 976px; border-top: 1px #444 solid; border-left: 4px #343434 solid; } 
 #twitter {}
 .twitter_placement { position: relative; top: -20px; left: -5px; }
-ul#twitter_update_list li { margin: 13px 0 0 7px; font-size: 14px; display: inline; float: left; color: #fff; list-style: none; }
-ul#twitter_update_list li span a { color: #ccc; text-decoration: underline; }
+ul#twitter_update_list li { margin: 5px 0 0 7px; max-width: 525px; max-height: 30px; overflow: hidden; font-size: 13px; line-height: 14px; display: inline; float: left; color: #fff; list-style: none; }
+ul#twitter_update_list li span a { color: #e5e5e5; padding: 0;  margin: 0; text-decoration: underline; }
 ul#twitter_update_list li span a:hover { color: #17cafe; text-decoration: none; }
-ul#twitter_update_list li a { color: #000; text-decoration: none; } 
+ul#twitter_update_list li a { color: #e5e5e5; text-decoration: none; } 
 #twitter a.tweet { display: inline; color: #ccc; font-size: 14px; text-decoration: none; float: left; margin: 13px 0 0 10px; }
 #twitter a.tweet:hover { display: inline; color: #fff; font-size: 14px; text-decoration: none; float: left; margin: 13px 0 0 10px; }
 #quote-action { float: right; width: 290px; height: 40px; border-top: 2px #fff solid; background: #32902e; position: relative; top: -5px; padding: 10px 0 0 10px; }
-span.fad { color: #fff; font-size: 22px; padding: 0px 0 0 8px; display: inline; position: relative; top: 1px; float: left; }
-#quote-action a.locate { background: #fff; padding: 5px 13px; margin:  0 5px 0 5px; border-radius: 3px; -moz-border-radius: 3px; color: #444; font-weight: bold; text-decoration: none; font-size: 13px; text-transform: uppercase; text-shadow: 1px 1px 0px #f0f0f0; float: right; display: inline; }
+span.fad { color: #fff; font-size: 22px; padding: 0 0 0 8px; display: inline; position: relative; top: 2px; float: left; }
+#quote-action a.locate { background: #fff; padding: 5px 13px; margin:  0 10px 0 10px; border-radius: 3px; -moz-border-radius: 3px; color: #444; font-weight: bold; text-decoration: none; font-size: 13px; text-transform: uppercase; text-shadow: 1px 1px 0px #f0f0f0; float: right; display: inline; }
+
 
 
 .client-reviews { width: 340px; background: #3d3d3d; margin-top: 17px; padding: 10px; border-radius: 4px; -moz-border-radius: 4px; }
