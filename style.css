@@ -984,7 +984,10 @@ span.tdate { color: #f0f0f0; font-size: 14px; }
 .client-reviews a.continue, .client-reviews a.continue:visited  { background: #9d9d9d; padding: 3px 7px 3px 17px; margin: 7px 10px 5px -13px; color: #fff; clear: left; float: left; text-decoration: none; } 
 .client-reviews a.continue:hover { background: #909090; }
 .news-container { margin-top: 0; }
-.where-about li { width: 280px; color: #3d3d3d; list-style: none; margin-top: 7px; padding: 6px 15px 6px 10px; background: #f0f0f0; border-bottom: 1px #CCC solid; border-radius: 4px; -moz-border-radius: 4px; } 
+.where-about li, .download-mat li a { width: 280px; color: #3d3d3d; list-style: none; margin-top: 7px; padding: 6px 15px 6px 10px; background: #f0f0f0; border-bottom: 1px #CCC solid; border-radius: 4px; -moz-border-radius: 4px; } 
+.download-mat li a { display: block; text-decoration: none; }
+.download-mat li a span { color: #a0a0a0; text-shadow: -1px 1px 0 #fff; }
+.download-mat li a:hover { background: #e2e2e2; }
 
 /* Mid-Case */
 #mid-case-action { background: url(images/background/mid_case_action_bg.png) no-repeat; width: 960px; height: 400px; position: relative; top: 50px; z-index: 1002; margin: -95px 0 0px; padding-top: 100px; }

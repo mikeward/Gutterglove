@@ -58,29 +58,22 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
 
 <div class="narrowcolumn-bare">
 
-
 			<?php comments_template( '', true ); ?>      	
 	<?php endwhile; ?>		
     <?php endif; ?>	
 </div><!-- .narrowcolumn-bare -->
 
-
-
   <div id="sidebar" class="profile">       
     
     <h2>Download Materials</h2>
 
-<ul class="where-about">
-<li>CAD Files</li>
-<li>Dealer Agreement</li>
-<li>Standard Install Client Contract</li>
-<li>DIY Show "Cool Tools"</li>
-<li>DIY Show "This New House"</li>
-<li>Discovery Channel "Renovation Nation"</li>
-<li>Popular Mechanics Magazine</li>
-<li>The Washington Post</li>
-<li>Los Angeles Times</li>
-<li>San Francisco Chronicle</li>
+<ul class="download-mat">
+<li><a href="#">CAD Files <span>(18mb)</span></a></li>
+<li><a href="#">Dealer Agreement <span>(122kb)</span></a></li>
+<li><a href="#">Standard Install Contract <span>(210kb)</span></a></li>
+<li><a href="#">Pricing List <span>(150kb)</span></a></li>
+<li><a href="#">Asset Disc Files <span>(3.4gb)</span></a></li>
+<li><a href="#">Install Guide <span>(576kb)</span></a></li>
 </ul>
     </div>    
 
