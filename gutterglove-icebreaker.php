@@ -18,8 +18,8 @@ include (TEMPLATEPATH . '/header-product-page.php'); ?>
 			<div class="product-step">
 				<ul>
 					<li><a class="scroll" href="#photos">Product Photos</a></li>
-					<li><a href="#">Watch Performance Video</a></li>
-					<li><a href="#">Request a Quote</a></li>
+					<li><a onclick="window.open(this.href,'PerformanceVideo','resizable=no,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,width=450,height=375,status'); return false" href="http://www.gutterglove.com/gutterguards/video_youtube_performance.html">Watch Performance Video</a></li>
+					<li><a href="<?php get_site_url(); ?>/test/contact-us">Request a Quote</a></li>
 				</ul>
 			</div>
 			
@@ -49,11 +49,11 @@ if(class_exists('bcn_breadcrumb_trail'))
 <div id="product-action">
 
 	<table>
-		<td><span><a class="cfinclude" href="gutterglove-ultra">Gutterglove Ultra</a></span></td>
+		<td><span><a class="cfinclude" href="gutterglove-ultra">View Gutterglove Ultra</a></span></td>
 	
-		<td><span><a class="cfinclude" href="gutterglove-pro">Gutterglove Pro</a></span></td>
+		<td><span><a class="cfinclude" href="gutterglove-pro">View Gutterglove Pro</a></span></td>
 
-		<td><span class="selected cfinclude"><a href="gutterglove-icebreaker">Gutterglove IceBreaker</a></span></td>
+		<td><span class="selected cfinclude"><a href="gutterglove-icebreaker">View Gutterglove IceBreaker</a></span></td>
 
 	</table>
 
@@ -88,13 +88,13 @@ if(class_exists('bcn_breadcrumb_trail'))
 
 <table class="product-details-sub">
 	<tr class="lgrey">
-			<td>2" to 3.5" gutters <span class="size">Junior Size</span></td>
+			<td class="juniorsize">2" to 3.5" gutters <span class="size">Junior Size</span></td>
 	</tr>
 	<tr class="grey">
-		<td>2" to 3.5" gutters <span class="size">Standard Size</span></td>
+		<td class="standardsize">2" to 3.5" gutters <span class="size">Std Size</span></td>
 	</tr>
 	<tr class="red">
-		<td>2" to 3.5" gutters <span class="size">Super Size</span></td>
+		<td class="supersize">2" to 3.5" gutters <span class="size">Super Size</span></td>
 	</tr>
 </table>
 

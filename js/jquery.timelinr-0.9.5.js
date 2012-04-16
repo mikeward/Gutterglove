@@ -25,7 +25,7 @@ jQuery.fn.timelinr = function(options){
 		prevButton: 				'#prev',			// value: any HTML tag or #id, default to #prev
 		nextButton: 				'#next',			// value: any HTML tag or #id, default to #next
 		arrowKeys: 					'false',			// value: true | false, default to false
-		startAt: 					1,					// value: integer, default to 1 (first)
+		startAt: 					5,					// value: integer, default to 1 (first)
 		autoPlay: 					'false',			// value: true | false, default to false
 		autoPlayDirection: 			'forward',			// value: forward | backward, default to forward
 		autoPlayPause: 				2000				// value: integer (1000 = 1 seg), default to 2000 (2segs)

@@ -81,6 +81,15 @@ include 'gallerydata.php';?>
 
 <body <?php body_class(); ?>>
 
+<?php
+if ( is_user_logged_in() ) {
+    echo '';
+} else {
+    echo '<a class="dd-bttn" href="' . get_site_url() . '/dealer-dashboard">Login</a>';
+}
+?>
+
+
 <div id="header-container">
 <?php include ('header-nav.php'); ?>
 </div><!-- #header-container -->

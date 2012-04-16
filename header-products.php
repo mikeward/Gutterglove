@@ -99,6 +99,14 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 
 <body <?php body_class(); ?>>
 
+<?php
+if ( is_user_logged_in() ) {
+    echo '';
+} else {
+    echo '<a class="dd-bttn" href="' . get_site_url() . '/dealer-dashboard">Login</a>';
+}
+?>
+
 <div id="header-container">
 <?php include ('header-nav.php'); ?>
 </div><!-- #header-container -->

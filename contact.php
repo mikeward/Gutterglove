@@ -107,7 +107,9 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
       </select>
     </div><br />
 <label>Zip</label><br />          
-<input type="text" class="fad-zip" />
+<input type="text" class="fad-zip" /><br />
+<label>Message</label><br />  
+<textarea type="text" class="message" /></textarea>
 <button class="submit-std blk-pattern action-blue cu-place">Submit</button>
 </form>
                 
@@ -127,9 +129,8 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
    <br />
            <div class="c-wrap phone-case">
     <h2>Phone Support</h2>
-    <p>Toll Free: 877-662-5644<br />USA Work: 916-624-5000</p>
+    <p>Toll Free: 877-662-5644<br />Support: 916-624-5000</p>
         </div>
-
 
     </div>    
 <div class="clear"></div>

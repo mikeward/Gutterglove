@@ -35,22 +35,22 @@
 <h2>Download Free Wallpapers</h2>
 
 <span class="wallpaper-wrap">
-	<span class="img"></span>
+	<span class="img"><img src="<?php echo get_template_directory_uri(); ?>/images/download-wallpaper1.jpg" alt="Download Wallpaper" /></span>
 	<p>Download Standard | Download Widesreen</p>
 </span>
 
 <span class="wallpaper-wrap">
-	<span class="img"></span>
+	<span class="img"><img src="<?php echo get_template_directory_uri(); ?>/images/download-wallpaper2.jpg" alt="Download Wallpaper" /></span>
 	<p>Download Standard | Download Widesreen</p>
 </span>
 
 <span class="wallpaper-wrap">
-	<span class="img"></span>
+	<span class="img"><img src="<?php echo get_template_directory_uri(); ?>/images/download-wallpaper3.jpg" alt="Download Wallpaper" /></span>
 	<p>Download Standard | Download Widesreen</p>
 </span>
 
 <span class="wallpaper-wrap">
-	<span class="img"></span>
+	<span class="img"><img src="<?php echo get_template_directory_uri(); ?>/images/download-wallpaper2.jpg" alt="Download Wallpaper" /></span>
 	<p>Download Standard | Download Widesreen</p>
 </span>
 

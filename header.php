@@ -81,10 +81,28 @@ include 'gallery.php';?>
 
 <body <?php body_class(); ?>>
 
+<?php
+if ( is_user_logged_in() ) {
+    echo '';
+} else {
+    echo '<a class="dd-bttn" href="' . get_site_url() . '/dealer-dashboard">Login</a>';
+}
+?>
+
 <div id="header-container">
 <?php include ('header-nav.php'); ?>
 </div><!-- #header-container -->
 
-<div class="content-pad">
+
+
+<?php
+if ( is_home() ) {
+    // This is a homepage
+} else {
+    // This is not a homepage
+	echo '<div class="content-pad">';
+}
+?>
+
 
 <div class="clear"></div>

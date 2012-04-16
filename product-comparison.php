@@ -23,11 +23,11 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 
   <tr>
   
-    <td class="img"><a href="gutterglove-ultra"><img src="<?php echo get_template_directory_uri(); ?>/images/mini_comparison-ultra.jpg" alt="Gutterglove Ultra" /></a></td>
+    <td class="img pushgg"><a href="gutterglove-ultra"><img src="<?php echo get_template_directory_uri(); ?>/images/mini_comparison-ultra.jpg" alt="Gutterglove Ultra" /></a></td>
   
-    <td class="img"><a href="gutterglove-pro"><img src="<?php echo get_template_directory_uri(); ?>/images/mini_comparison-pro.jpg" alt="Gutterglove Pro" /></a></td>
+    <td class="img"><span>Top Pick</span><a href="gutterglove-pro"><img src="<?php echo get_template_directory_uri(); ?>/images/mini_comparison-pro.jpg" alt="Gutterglove Pro" /></a></td>
 
-    <td class="img"><a href="gutterglove-icebreaker"><img src="<?php echo get_template_directory_uri(); ?>/images/mini_comparison-icebreaker.jpg" alt="Gutterglove IceBreaker" /></a></td>
+    <td class="img pushgg"><a href="gutterglove-icebreaker"><img src="<?php echo get_template_directory_uri(); ?>/images/mini_comparison-icebreaker.jpg" alt="Gutterglove IceBreaker" /></a></td>
 
   </tr>
 
@@ -39,11 +39,11 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 
 	<table>
 
-		<td><span><a class="cfinclude" href="gutterglove-ultra">Gutterglove Ultra</a></span></td>	
+		<td><span><a class="cfinclude" href="gutterglove-ultra">View Gutterglove Ultra</a></span></td>	
 	
-		<td><span><a class="cfinclude pro-prod" href="gutterglove-pro">Gutterglove Pro</a></span></td>
+		<td><span class="center-ggpro"><a class="cfinclude pro-prod" href="gutterglove-pro">View Gutterglove Pro</a></span></td>
 
-		<td><span><a class="cfinclude" href="gutterglove-icebreaker">Gutterglove IceBreaker</a></span></td>
+		<td><span><a class="cfinclude" href="gutterglove-icebreaker">View Gutterglove IceBreaker</a></span></td>
 
 	</table>
 
@@ -69,7 +69,7 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 
 
 
-  <span class="product-title">Product Sizes</span>
+  <span class="iconwrap ico-ruler"><span class="product-title">Product Sizes</span></span>
 
 
 
@@ -77,11 +77,11 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 
   <tr class="lgrey">
 
-    <td>2" to 3.5" gutters <span class="size">Junior</span></td>
+    <td class="juniorsize">2" to 3.5" gutters <span class="size">Junior</span></td>
 
-    <td>2" to 3.5" gutters <span class="size">Junior</span></td>
+    <td class="juniorsize">2" to 3.5" gutters <span class="size">Junior</span></td>
 
-    <td>2" to 3.5" gutters <span class="size">Junior</span></td>
+    <td class="juniorsize">2" to 3.5" gutters <span class="size">Junior</span></td>
 
 
 
@@ -89,11 +89,11 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 
   <tr class="grey">
 
-    <td>2" to 3.5" gutters <span class="size">Standard</span></td>
+    <td class="standardsize">2" to 3.5" gutters <span class="size">Standard</span></td>
 
-    <td>4" to 5.5" gutters <span class="size">Standard</span></td>
+    <td class="standardsize">4" to 5.5" gutters <span class="size">Standard</span></td>
 
-    <td>2" to 3.5" gutters <span class="size">Standard</span></td>
+    <td class="standardsize">2" to 3.5" gutters <span class="size">Standard</span></td>
 
 
 
@@ -101,11 +101,11 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 
   <tr class="red">
 
-    <td>2" to 3.5" gutters <span class="size">Super</span></td>
+    <td class="supersize">2" to 3.5" gutters <span class="size">Super</span></td>
 
-    <td>5.5" to 7.5" gutters <span class="size">Super</span></td>
+    <td class="supersize">5.5" to 7.5" gutters <span class="size">Super</span></td>
 
-    <td>2" to 3.5" gutters <span class="size">Super</span></td>
+    <td class="supersize">2" to 3.5" gutters <span class="size">Super</span></td>
 
 
 
@@ -114,32 +114,18 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 </table>
 
   
-
-  <span class="product-title">Key Benefits</span>
-
+  <span class="iconwrap ico-key"><span class="product-title">Key Benefits</span></span>
 
 
 <table class="product-details">
 
   <tr>
 
-    <td>2" to 3.5" gutters</td>
+    <td>Filters over 150 inches of hourly rain! </td>
 
-    <td>2" to 3.5" gutters</td>
+    <td>Filters out all debris from your gutter! </td>
 
-    <td>2" to 3.5" gutters</td>
-
-
-
-  </tr>
-
-  <tr>
-
-    <td>2" to 3.5" gutters</td>
-
-    <td>2" to 3.5" gutters</td>
-
-    <td>2" to 3.5" gutters</td>
+    <td>One heat cable to melt the ice in and on your gutter!</td>
 
 
 
@@ -147,11 +133,23 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 
   <tr>
 
-    <td>2" to 3.5" gutters</td>
+    <td>Eliminates gutter cleaning forever! </td>
 
-    <td>2" to 3.5" gutters</td>
+    <td>Barely visible from the ground!</td>
 
-    <td>2" to 3.5" gutters</td>
+    <td>No more gutters being ripped off your home from snow.</td>
+
+
+
+  </tr>
+
+  <tr>
+
+    <td>No rain gutter clogs ever!</td>
+
+    <td>Fits on any roof type!</td>
+
+    <td>You can harvest the snow with Icebreaker</td>
 
 
 
@@ -160,11 +158,7 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 </table>
 
   
-
-
-
-  <span class="product-title">Options</span>
-
+  <span class="iconwrap ico-plus"><span class="product-title">Options</span></span>
 
 
 <table class="product-details">
@@ -187,7 +181,7 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 
   
 
-  <span class="product-title">Features</span>
+  <span class="iconwrap ico-ruler"><span class="product-title">Features</span></span>
 
 
 
@@ -208,7 +202,7 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 
   
 
-  <span class="product-title">Product Options</span>
+  <span class="iconwrap ico-plus"><span class="product-title">Product Sizes</span></span>
 
 
 

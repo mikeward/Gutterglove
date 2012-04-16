@@ -1,0 +1,13 @@
+span.iceheated {
+	float: right;
+	margin-right: 27px; padding-top: 2px;
+	background: #bc0d12 url(images/background/heated-bg.jpg) repeat-x;
+	width: 105px; height: 20px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	border-radius: 3px 3px 0 0; -moz-border-radius: 3px 3px 0 0;
+	position: relative; top: 10px;
+	font-size: 13px;
+	text-shadow: -1px -1px 0 #900a0c;
+}	

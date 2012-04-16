@@ -34,9 +34,9 @@ if(class_exists('bcn_breadcrumb_trail'))
 	<div class="fab-feature-container"><span id="eliminates-sec"></span>
 		<div class="fab-img-left"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/benefit_1_lg.png" alt="Eliminates Gutter Cleaning Forever" /></div>
 		<div class="fab-content-right"><h3>Eliminates Gutter Cleaning Forever</h3>
-			<p>Sed hendrerit velit ut felis consequat quis dictum sapien blandit. Donec in magna leo. Nam nunc felis, tempor sed feugiat a, porta ac urna. Morbi vitae nisl sed mauris egestas egestas. Vivamus vestibulum metus non neque dignissim a tincidunt justo ornare. Vivamus eget odio mi. Phasellus rhoncus varius eleifend. Fusce dignissim dignissim mi, vitae fermentum enim convallis non. Mauris semper massa a massa pellentesque ut ultricies ante luctus. Sed elementum aliquet erat in gravida.</p>
+			<p>Sed hendrerit velit ut felis consequat quis dictum sapien blandit. Donec in magna leo. Nam nunc felis, tempor sed feugiat a, porta ac urna. Morbi vitae nisl sed mauris egestas egestas. Vivamus vestibulum metus non neque dignissim a tincidunt justo ornare. Vivamus eget odio.</p>
 
-			<p>Integer gravida tellus ut nunc egestas adipiscing ac et nisl. Vivamus nec erat neque. Cras ultrices gravida adipiscing. Nunc tempor risus quis eros venenatis molestie. Quisque ornare lobortis neque non viverra. Curabitur nec lectus vel dolor egestas fermentum sagittis quis lorem. Integer ac lacus id leo gravida euismod et quis massa.</p>
+			<p>Integer gravida tellus ut nunc egestas adipiscing ac et nisl. Vivamus nec erat neque. Cras ultrices gravida adipiscing. Nunc tempor risus quis eros venenatis molestie. Quisque ornare lobortis neque non viverra. </p>
 		</div><!--fab-content-right -->
 	</div><!-- fab-feature-container -->
 
@@ -70,9 +70,10 @@ if(class_exists('bcn_breadcrumb_trail'))
 	<div class="fab-feature-container"><a class="up scroll" href="#top"><span>Top of Page</span></a><span id="fit-sec"></span>
 		<div class="fab-img-right"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/benefit_4_lg.png" alt="Fits on Any Gutter Type and Size" /></div>
 		<div class="fab-content-left"><h3>Fits on Any Gutter Type & Size</h3>
-			<p>Sed hendrerit velit ut felis consequat quis dictum sapien blandit. Donec in magna leo. Nam nunc felis, tempor sed feugiat a, porta ac urna. Morbi vitae nisl sed mauris egestas egestas. Vivamus vestibulum metus non neque dignissim a tincidunt justo ornare. Vivamus eget odio mi. Phasellus rhoncus varius eleifend. Fusce dignissim dignissim mi, vitae fermentum enim convallis non. Mauris semper massa a massa pellentesque ut ultricies ante luctus. Sed elementum aliquet erat in gravida.</p>
+			<p>Sed hendrerit velit ut felis consequat quis dictum sapien blandit. Donec in magna leo. Nam nunc felis, tempor sed feugiat a, porta ac urna. Morbi vitae nisl sed mauris egestas egestas. Vivamus vestibulum metus non neque dignissim a tincidunt justo ornare. Vivamus eget odio mi.</p> 
+			
+			<p>Phasellus rhoncus varius eleifend. Fusce dignissim dignissim mi, vitae fermentum enim convallis non. Mauris semper massa a massa pellentesque ut ultricies ante luctus. Sed elementum aliquet erat in gravida.</p>
 
-			<p>Integer gravida tellus ut nunc egestas adipiscing ac et nisl. Vivamus nec erat neque. Cras ultrices gravida adipiscing. Nunc tempor risus quis eros venenatis molestie. Quisque ornare lobortis neque non viverra. Curabitur nec lectus vel dolor egestas fermentum sagittis quis lorem. Integer ac lacus id leo gravida euismod et quis massa.</p>
 		</div><!--fab-content-left -->
 	</div><!-- fab-feature-container -->
 
@@ -80,9 +81,8 @@ if(class_exists('bcn_breadcrumb_trail'))
 	<div class="fab-feature-container"><a class="up-rt scroll" href="#top"><span>Top of Page</span></a><span id="aluminum-sec"></span>
 		<div class="fab-img-left"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/benefit_5_lg.png" alt="Anodized Aluminum Channel Frame Makes Most Durable Gutter Guard" /></div>
 		<div class="fab-content-right"><h3>Anodized Aluminum Channel Frame Makes Most Durable Gutter Guard</h3>
-			<p>Sed hendrerit velit ut felis consequat quis dictum sapien blandit. Donec in magna leo. Nam nunc felis, tempor sed feugiat a, porta ac urna. Morbi vitae nisl sed mauris egestas egestas. Vivamus vestibulum metus non neque dignissim a tincidunt justo ornare. Vivamus eget odio mi. Phasellus rhoncus varius eleifend. Fusce dignissim dignissim mi, vitae fermentum enim convallis non. Mauris semper massa a massa pellentesque ut ultricies ante luctus. Sed elementum aliquet erat in gravida.</p>
+			<p>Sed hendrerit velit ut felis consequat quis dictum sapien blandit. Donec in magna leo. Nam nunc felis, tempor sed feugiat a, porta ac urna. Morbi vitae nisl sed mauris egestas egestas. Vivamus vestibulum metus non neque dignissim a tincidunt justo ornare.</p>
 
-			<p>Integer gravida tellus ut nunc egestas adipiscing ac et nisl. Vivamus nec erat neque. Cras ultrices gravida adipiscing. Nunc tempor risus quis eros venenatis molestie. Quisque ornare lobortis neque non viverra. Curabitur nec lectus vel dolor egestas fermentum sagittis quis lorem. Integer ac lacus id leo gravida euismod et quis massa.</p>
 		</div><!--fab-content-right -->
 	</div><!-- fab-feature-container -->
 	
@@ -90,8 +90,6 @@ if(class_exists('bcn_breadcrumb_trail'))
 	<div class="fab-feature-container"><a class="up scroll" href="#top"><span>Top of Page</span></a><span id="stainlesssteel-sec"></span>
 		<div class="fab-img-right"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/benefit_6_lg.png" alt="Stainless Steel Mesh" /></div>
 		<div class="fab-content-left"><h3>Stainless Steel Mesh</h3>
-			<p>Sed hendrerit velit ut felis consequat quis dictum sapien blandit. Donec in magna leo. Nam nunc felis, tempor sed feugiat a, porta ac urna. Morbi vitae nisl sed mauris egestas egestas. Vivamus vestibulum metus non neque dignissim a tincidunt justo ornare. Vivamus eget odio mi. Phasellus rhoncus varius eleifend. Fusce dignissim dignissim mi, vitae fermentum enim convallis non. Mauris semper massa a massa pellentesque ut ultricies ante luctus. Sed elementum aliquet erat in gravida.</p>
-
 			<p>Integer gravida tellus ut nunc egestas adipiscing ac et nisl. Vivamus nec erat neque. Cras ultrices gravida adipiscing. Nunc tempor risus quis eros venenatis molestie. Quisque ornare lobortis neque non viverra. Curabitur nec lectus vel dolor egestas fermentum sagittis quis lorem. Integer ac lacus id leo gravida euismod et quis massa.</p>
 		</div><!--fab-content-left -->
 	</div><!-- fab-feature-container -->

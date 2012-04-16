@@ -17,11 +17,7 @@ Template Name: Full Width
                      <?php t_show_video($post->ID); ?>
                      <?php the_content(); ?>    
                     <div class="clear"></div>
-                </div>   
-				<p class="postmetadata">	               
-                <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>                    	
-                <?php edit_post_link(__('Edit','nattywp'), '<p>', '</p>'); ?>	
-				</p>                   
+                </div>                  
 			</div>	          	
 	<?php endwhile; ?>		
     <?php endif; ?>				

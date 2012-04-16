@@ -12,8 +12,8 @@ if(mobileDevice() == true)
 header('Location: mobile.php');
 
 ?>
-<?php get_header();?>    
- 
+<?php get_header();?> 
+<div id="banner-wrap">   
 <div class="head-img">
   
   <?php $t_custom_background = get_option( "nattywp_custom_header" ); 
@@ -26,59 +26,43 @@ header('Location: mobile.php');
   <?php } ?>
 </div>
 <!-- END Header -->
+</div><!-- #banner-wrap -->
 
 <?php 
 $t_show_post = t_get_option ("t_show_post");	
 ?>    
-
+<div class="content-pad">
 <div id="main">		
-	<div class="columns">      
-	
-        <div class="narrowcolumn">
-     	<h2 class="title">Our Stainless Steel Mesh Gutter Guards</h2>
-   <div id="features-case">
-   <ul id="home-features">
-		<li class="even"><a href="features-and-benefits#eliminates-sec"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/benefit_1.png" alt="Eliminates gutter cleaning altogether" /><span class="title">Eliminates gutter cleaning altogether</span>
-		</a>
-		</li>
-		<li class="odd"><a href="features-and-benefits#filter-sec"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/benefit_2.png" alt="Keeps out leaves and debris" /><span class="title">Keeps out leaves and debris</span></a></li>
-		<li class="even trans"><a href="features-and-benefits#noclog-sec"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/benefit_3.png" alt="No Cloggs" /><span class="title">Virtually No Clogging</span></a></li>
-   </ul>
-   
-   <ul id="home-features-second">
-		<li class="even"><a href="features-and-benefits#fit-sec"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/benefit_4.png" alt="Fits on any gutter and roof type" /><span class="title">Fits on any gutter and roof type</span></a></li>
-		<li class="odd"><a href="features-and-benefits#aluminum-sec"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/benefit_5.png" alt="Anodized aluminum channel frame keeps guard strong" /><span class="title">Anodized aluminum channel frame keeps guard strong</span></a></li>
-		<li class="even trans"><a href="features-and-benefits#stainlesssteel-sec"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/benefit_6.png" alt="316 surgical-grade stainless steel mesh can handle any debris from entrance." /><span class="title">316 surgical-grade stainless steel mesh</span></a></li>
-   </ul>
-  
-			<span class="ggproduct-features"><a href="features-and-benefits">View Product Features & Benefits</a></span>
-  </div><!-- #features-case -->
-  
-   </div> <!-- END Narrowcolumn -->
-   <div id="sidebar" class="profile">
-      <h2 class="title why">Why Gutterglove</h2>
-	  <div id="reasons-container">
-			<ul id="reasons-case">
-				<li>25 Year Product Warranty</li>
-				<li>The only anodized stainless steel gutterguard on the market</li>
-				<li>Hi-grade 316 mesh surgical stainless steel mesh</li>
-				<li>Highest rated gutter guard product by leading consumer magazine</li>
-				<li>Millions of feet of happy customers</li>
-				<li>Peace of mind to no more gutter cleaning</li>
-				<li>Representation by local Gutterglove dealer</li>
-			</ul>
-   <a class="contact-us-action" href="contact-us">Receive More Information</a>
-   </div><!-- #reasons-container -->
-      </div><!-- #sidebar -->
 
-   </div>
-   
-   
+<div id="promo-container">
+	<div class="promo-case">
+	<h3>Features & Benefits</h3>
+	<img src="<?php echo get_template_directory_uri(); ?>/images/benefitsfeatures-snippet.jpg" alt="Features and Benefits" />
+	<p>Learn why Gutterglove gutter guard is the cream of the crop.</p>
+	<a href="features-and-benefits"><span class="stbttn cu-place">Explore Features</span></a>
+	</div><!-- .promo-case -->
+
+	<div class="promo-case">
+	<h3>Gutterglove for Your Home</h3>
+	<img src="<?php echo get_template_directory_uri(); ?>/images/whyyourhome-snippet.jpg" alt="Features and Benefits" />
+	<p>Discover why installing Gutterglove on your home gives you peace of mind and a lot advantages.</p>
+	<a href="#"><span class="stbttn cu-place">Learn More</span></a>
+	</div><!-- .promo-case -->
 	
-     <div class="narrowcolumn">
+	<div class="promo-case promocase-rpad">
+	<h3>Become A Gutterglove Installer</h3>
+	<img src="<?php echo get_template_directory_uri(); ?>/images/becomeadealer-snippet.jpg" alt="Become A Dealer" />
+	<p>Become a Certified Gutterglove Dealer and install our amazing industry flagship product in your area.</p>
+	<a href="become-a-dealer"><span class="stbttn cu-place">What's Included</span></a>
+	</div><!-- .promo-case -->
+</div><!-- #promo-container -->
+
+<!-- placeholder for previous content --> 
+<div class="centerpod-wrap"> 
+        <div class="narrowcolumn">
 	<div class="news-container">
      	<h2 class="title">In the News</h2>
-     <?php if (have_posts()) :  query_posts( 'posts_per_page=3' );  ?>
+     <?php if (have_posts()) :  query_posts( 'posts_per_page=4' );  ?>
      <?php while (have_posts()) : the_post(); ?>							
 			<div <?php post_class();?>>
             	
@@ -93,8 +77,8 @@ $t_show_post = t_get_option ("t_show_post");
                     the_advanced_excerpt('length=2&exclude_tags=img&read_more=Read More');  
                 } else { //fullpost 
                     t_show_video($post->ID);
-                    the_advanced_excerpt('length=40&exclude_tags=img,a&read_more=Read More');   ?>  
-                                     <?php edit_post_link(__('Edit','nattywp'), ' | ', ''); ?>
+                      ?>  
+                                  
                 <div id="morepage-list"><?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?></div>                       
             <?php } ?>
             <div class="clear"></div>
@@ -124,11 +108,14 @@ $t_show_post = t_get_option ("t_show_post");
  </div> <!-- END Narrowcolumn -->
    <div id="sidebar" class="profile">
    <div class="client-reviews cr-w">
-   <h3>Client Reviews</h3><img src="<?php echo get_template_directory_uri(); ?>/images/JerryLRoss-NASA.jpg" /><a class="continue" href="#">Continue Reading</a>
+   <h3>Client Reviews</h3><img src="<?php echo get_template_directory_uri(); ?>/images/JerryLRoss-NASA.jpg" /><a class="continue" href="<?php get_site_url(); ?>/test/testimonials">Continue Reading</a>
    <p>I've been involved in the NASA Apollo Program for about 10 or 11 years from 1959 through the summer of 1971. I was a quality control representative for NASA. And I had the primary responsibility to oversee the development, and the manufacturing, the assembly, and the testing, of the lunar excursion modular descent engine. And I put my stamp of approval on it that it meets all of NASA's requirements, for a reliable engine...<span class="customer">Leonard Taylor - Retired QCR for NASA</span></p>
    </div><!-- #client-reviews -->
 
-   </div>     
+   </div><!-- .sidebar -->   
+
+</div><!-- centerpod-wrap -->
+<!-- End of removal of content -->
    
 <div class="clear"></div>    
 
@@ -145,7 +132,7 @@ $t_show_post = t_get_option ("t_show_post");
 		</div>
 
         <div class="mid-case show-case">
-            <span class="block-case"><h2><a href="#">The Gutterguard Show</a></h2><a class="img-action gg-show" title="Watch our Gutterguard Show Online" href="#"><span class="link">Watch our Gutterguard Show Online</span></a><p>Donec velit risus, volutpat at viverra ut, malesuada non magna. Nullam ornare sem turpis, a convallis nibh.</p>
+            <span class="block-case"><h2><a href="<?php get_site_url(); ?>/test/the-gutterguard-show">The Gutterguard Show</a></h2><a class="img-action gg-show" title="Watch our Gutterguard Show Online" href="<?php get_site_url(); ?>/test/the-gutterguard-show"><span class="link">Watch our Gutterguard Show Online</span></a><p>Donec velit risus, volutpat at viverra ut, malesuada non magna. Nullam ornare sem turpis, a convallis nibh.</p>
             </span>
 		</div>
 
