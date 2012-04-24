@@ -5,6 +5,10 @@
  */
  get_header(); ?> 
  
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <div id="main-rainh">		
            	
 	<div class="columns div-slice">      
@@ -37,8 +41,8 @@
 	<iframe width="300" height="195" src="http://www.youtube.com/embed/U2H0i9Vq7_U?rel=0" frameborder="0" allowfullscreen></iframe>	
 	<img src="<?php echo get_template_directory_uri(); ?>/images/rhsdiagram.jpg" alt="RHS Diagram" />
 	<h3>Download Rain Harvesting Diagram</h3>
-	<a class="btn-action" href="#">Hi-res (Print)</a>
-	<a class="btn-action" href="#">Low-res (Viewing)</a>
+	<a class="btn-action" href="<?php get_site_url(); ?>/resources/images/rainharvestingsystems/2d House RHS Diagram copy.pdf">Hi-res (Print)</a>
+	<a class="btn-action" href="<?php get_site_url(); ?>/resources/images/rainharvestingsystems/rhsdiagram-lowres.zip">Low-res (Viewing)</a>
 	</div>
 	
 	<div class="diagram-list">

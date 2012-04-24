@@ -4,7 +4,11 @@
  *Template name: Support Center
  */
  get_header(); ?> 
- 
+
+<div class="content-pad">
+
+<div class="clear"></div> 
+
 <div id="main-subpage">		
 	<div class="columns div-slice">      
     <div class="narrowcolumn-bare singlepage">
@@ -64,25 +68,20 @@
         <div class="c-wrap">
         
         <p>Need support with a question not listed in our <br />Support Center? Message us here for additional support.</p>
-       
-<form id="ajaxForm">
 
-		
+<form id="ajaxForm" method="POST" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" name="FrontPage_Form1" onSubmit="return FrontPage_Form1_Validator(this)">		
+<input type=hidden name="oid" value="00DE0000000IyKu">
+<input type=hidden name="00NE0000000IE0M" value="1">
+<input type=hidden name="lead_source" value="Gutterglove Support">
+<input type=hidden name="retURL" value="http://gutterglove.com/thank-you">
 
+<input id="fname" type="text" class="fad-name" name="first_name" value="<?php _e('Name','nattywp'); ?>" onblur="if (!value)value='<?php _e('Name','nattywp'); ?>'" onclick="value=''" />
+<input type="text" class="fad-email" name="email" value="<?php _e('Email','nattywp'); ?>" onblur="if (!value)value='<?php _e('Email','nattywp'); ?>'" onclick="value=''" type="text" />
+<input type="text" class="fad-phone" name="phone" value="<?php _e('Phone','nattywp'); ?>" onblur="if (!value)value='<?php _e('Phone','nattywp'); ?>'" onclick="value=''" />
+<textarea name="00NE0000000IBjw" value="<?php _e('Message','nattywp'); ?>" onblur="if (!value)value='<?php _e('Message','nattywp'); ?>'" onclick="value=''">Message</textarea>
+<input id="submit_button" class="submit-std blk-pattern action-blue cu-place" value="Send Question" type="submit" onClick="submit_me();" />
+</form>
 
-    <input id="fname" name="fname" value="<?php _e('Name','nattywp'); ?>" onblur="if (!value)value='<?php _e('Name','nattywp'); ?>'" onclick="value=''" type="text" />
-
-    <input id="lname" name="lname" value="<?php _e('Email','nattywp'); ?>" onblur="if (!value)value='<?php _e('Email','nattywp'); ?>'" onclick="value=''" type="text" />
-
-    <input id="email" name="email" value="<?php _e('Phone','nattywp'); ?>" onblur="if (!value)value='<?php _e('Phone','nattywp'); ?>'" onclick="value=''" type="text" />
-
-    <textarea id="msgarea" value="<?php _e('Message','nattywp'); ?>" onblur="if (!value)value='<?php _e('Message','nattywp'); ?>'" onclick="value=''" name="msgarea">Message</textarea>
-
-  <p class="submit">
-    <input name="action" type="hidden" value="ajaxcf" />
-    <input id="submit_button" value="Send Question" type="button" onClick="submit_me();" />
-  </p>
-</form>        
         </div>
         <div class="c-wrap phone-case">
     <h2>Phone Support</h2>

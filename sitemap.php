@@ -5,6 +5,10 @@ Template Name: Sitemap
 ?>
 <?php get_header();?>   
 
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <div id="main">		
 	<div class="columns">        
     <div class="narrowcolumn singlepage">							

@@ -7,7 +7,7 @@ span.iceheated {
 	text-align: center;
 	display: inline-block;
 	border-radius: 3px 3px 0 0; -moz-border-radius: 3px 3px 0 0;
-	position: relative; top: 10px;
+	position: relative; top: 0px;
 	font-size: 13px;
 	text-shadow: -1px -1px 0 #900a0c;
 }	

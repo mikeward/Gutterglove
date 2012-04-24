@@ -5,6 +5,10 @@
  */
 include (TEMPLATEPATH . '/header-products.php'); ?>
 
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <div id="main-subpage">
 	<div class="columns">
 	

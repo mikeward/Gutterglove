@@ -67,26 +67,18 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/ie7.css" />
 	<![endif]-->
 
+	<!--[if IE 9]>
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/ie9.css">
+	<![endif]-->
 	
 </head>
 
 <body <?php body_class(); ?>>
 
-<?php
-if ( is_user_logged_in() ) {
-    echo '';
-} else {
-    echo '<a class="dd-bttn" href="' . get_site_url() . '/dealer-dashboard">Login</a>';
-}
-?>
-
 <div id="header-container">
 <?php include ('header-nav.php'); ?>
 </div><!-- #header-container -->
 
-<div class="content-pad">
-
-<div class="clear"></div>
 
 <script type="text/javascript">
   function moveScroller() {

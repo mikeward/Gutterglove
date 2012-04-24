@@ -3,6 +3,11 @@
  *Template name: Media
  */
  get_header( "gallery" ); ?> 
+
+<div class="content-pad">
+
+<div class="clear"></div> 
+ 
 <div id="main-subpage">		
 	<div class="columns div-slice">      
     <div class="narrowcolumn-bare singlepage">

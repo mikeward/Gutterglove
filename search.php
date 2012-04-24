@@ -1,5 +1,9 @@
 <?php get_header();?>      
 
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <?php 
 $t_show_post = t_get_option( "t_show_post" );		
 ?>    

@@ -4,6 +4,11 @@
  *Template name: Dealer Dashboard
  */
 include (TEMPLATEPATH . '/header-products.php'); ?>
+
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <div id="main-subpage">		
 	<div class="columns div-slice">      
 	<h1 class="page"><?php the_title(); ?></h1>

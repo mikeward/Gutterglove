@@ -4,6 +4,11 @@
  *Template name: About
  */
 include (TEMPLATEPATH . '/header-products.php'); ?>
+
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <div id="main-subpage">		
 	<div class="columns div-slice">      
 	<h1 class="page"><?php the_title(); ?></h1>
@@ -105,7 +110,7 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
     <br />
 
        <div class="client-reviews cr-s">
-   <h3>Client Reviews</h3><img src="<?php echo get_template_directory_uri(); ?>/images/JerryLRoss-NASA.jpg" /><a class="continue" href="#">Continue Reading</a>
+   <h3>Client Reviews</h3><img src="<?php echo get_template_directory_uri(); ?>/images/Leonard-Taylor.jpg" alt="Leonard Taylor, Retired QCR for NASA" /><a class="continue" href="<?php get_site_url(); ?>/testimonials">Continue Reading</a>
    <p>I've been involved in the NASA Apollo Program for about 10 or 11 years from 1959 through the summer of 1971. I was a quality control representative for NASA. And I had the primary responsibility to oversee the development, and the manufacturing, the assembly, and the testing, of the lunar excursion modular descent engine. And I put my stamp of approval on it that it meets all of NASA's requirements, for a reliable engine...<span class="customer">Leonard Taylor - Retired QCR for NASA</span></p>
    </div><!-- #client-reviews -->
 

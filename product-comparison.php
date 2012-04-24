@@ -5,9 +5,13 @@
  */
 include (TEMPLATEPATH . '/header-compare.php'); ?>
 
-<div id="main-products-compare" class="div-slice-productsR">	
+<div class="content-pad">
+
+<div class="clear"></div>
+
+<div id="main-products-compare">	
 <div class="title-grade">	
-	<div class="columns-products div-slice-products">
+	<div class="columns-products">
 
 
 
@@ -19,251 +23,133 @@ include (TEMPLATEPATH . '/header-compare.php'); ?>
 
 	<h1 class="page"><?php the_title(); ?> Comparison</h1>
 
-<table class="product-details">
-
-  <tr>
-  
-    <td class="img pushgg"><a href="gutterglove-ultra"><img src="<?php echo get_template_directory_uri(); ?>/images/mini_comparison-ultra.jpg" alt="Gutterglove Ultra" /></a></td>
-  
-    <td class="img"><span>Top Pick</span><a href="gutterglove-pro"><img src="<?php echo get_template_directory_uri(); ?>/images/mini_comparison-pro.jpg" alt="Gutterglove Pro" /></a></td>
-
-    <td class="img pushgg"><a href="gutterglove-icebreaker"><img src="<?php echo get_template_directory_uri(); ?>/images/mini_comparison-icebreaker.jpg" alt="Gutterglove IceBreaker" /></a></td>
-
-  </tr>
-
-</table>
-
-<div id="scroller-anchor"></div> <div id="scroller">
-
-<div id="product-action">
-
-	<table>
-
-		<td><span><a class="cfinclude" href="gutterglove-ultra">View Gutterglove Ultra</a></span></td>	
-	
-		<td><span class="center-ggpro"><a class="cfinclude pro-prod" href="gutterglove-pro">View Gutterglove Pro</a></span></td>
-
-		<td><span><a class="cfinclude" href="gutterglove-icebreaker">View Gutterglove IceBreaker</a></span></td>
-
-	</table>
-
-</div><!-- product-action -->
-
-</div><!-- scroller -->
-
-
-
-<table class="product-details">
-
-  <tr>
-
-    <td>The little brother of Gutterglove Pro... keeps out all the leaves.</td>
-
-    <td>Strongest and most durable gutter guard on the market. No more gutter clogs!</td>
-
-    <td>Melts icicles, ice dams, and snow loads while keeping your gutters clean.</td>
-
-  </tr>
-
-  </table>
-
-
-
-  <span class="iconwrap ico-ruler"><span class="product-title">Product Sizes</span></span>
-
-
-
-<table class="product-details">
-
-  <tr class="lgrey">
-
-    <td class="juniorsize">2" to 3.5" gutters <span class="size">Junior</span></td>
-
-    <td class="juniorsize">2" to 3.5" gutters <span class="size">Junior</span></td>
-
-    <td class="juniorsize">2" to 3.5" gutters <span class="size">Junior</span></td>
-
-
-
-  </tr>
-
-  <tr class="grey">
-
-    <td class="standardsize">2" to 3.5" gutters <span class="size">Standard</span></td>
-
-    <td class="standardsize">4" to 5.5" gutters <span class="size">Standard</span></td>
-
-    <td class="standardsize">2" to 3.5" gutters <span class="size">Standard</span></td>
-
-
-
-  </tr>
-
-  <tr class="red">
-
-    <td class="supersize">2" to 3.5" gutters <span class="size">Super</span></td>
-
-    <td class="supersize">5.5" to 7.5" gutters <span class="size">Super</span></td>
-
-    <td class="supersize">2" to 3.5" gutters <span class="size">Super</span></td>
-
-
-
-  </tr>
-
-</table>
-
-  
-  <span class="iconwrap ico-key"><span class="product-title">Key Benefits</span></span>
-
-
-<table class="product-details">
-
-  <tr>
-
-    <td>Filters over 150 inches of hourly rain! </td>
-
-    <td>Filters out all debris from your gutter! </td>
-
-    <td>One heat cable to melt the ice in and on your gutter!</td>
-
-
-
-  </tr>
-
-  <tr>
-
-    <td>Eliminates gutter cleaning forever! </td>
-
-    <td>Barely visible from the ground!</td>
-
-    <td>No more gutters being ripped off your home from snow.</td>
-
-
-
-  </tr>
-
-  <tr>
-
-    <td>No rain gutter clogs ever!</td>
-
-    <td>Fits on any roof type!</td>
-
-    <td>You can harvest the snow with Icebreaker</td>
-
-
-
-  </tr>
-
-</table>
-
-  
-  <span class="iconwrap ico-plus"><span class="product-title">Options</span></span>
-
-
-<table class="product-details">
-
-  <tr>
-
-    <td>Morbi cursus, augue nec ornare porta, dui lacus tempus massa, non consequat odio erat ut metus. </td>
-
-    <td>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vel ornare mi.</td>
-
-    <td>Mauris justo dolor, lobortis quis suscipit id, varius ac justo. Morbi tempor, libero ut tempor euismod, felis ante euismod nisi, ut dapibus quam sem vel diam.</td>
-
-
-
-  </tr>
-
-  </table>
-
-  
-
-  
-
-  <span class="iconwrap ico-ruler"><span class="product-title">Features</span></span>
-
-
-
-<table class="product-details">
-
-  <tr>
-
-    <td>Mauris justo dolor, lobortis quis suscipit id, varius ac justo. Morbi tempor, libero ut tempor euismod, felis ante euismod nisi, ut dapibus quam sem vel diam.</td>
-
-    <td>Sed consectetur, metus a interdum mollis, turpis erat viverra odio, at consectetur leo ligula nec purus. In hac habitasse platea dictumst. </td>
-
-    <td>Morbi cursus, augue nec ornare porta, dui lacus tempus massa, non consequat odio erat ut metus. </td>
-
-
-  </tr>
-
-  </table>
-
-  
-
-  <span class="iconwrap ico-plus"><span class="product-title">Product Sizes</span></span>
-
-
-
-<table class="product-details">
-
-  <tr>
-
-    <td>2" to 3.5" gutters</td>
-
-    <td>2" to 3.5" gutters</td>
-
-    <td>2" to 3.5" gutters</td>
-
-
-
-  </tr>
-
-  <tr>
-
-    <td>2" to 3.5" gutters</td>
-
-    <td>2" to 3.5" gutters</td>
-
-    <td>2" to 3.5" gutters</td>
-
-
-
-  </tr>
-
-  <tr>
-
-    <td>2" to 3.5" gutters</td>
-
-    <td>2" to 3.5" gutters</td>
-
-    <td>2" to 3.5" gutters</td>
-
-
-
-  </tr>
-
-</table>
-
-
-
-<table class="product-details">
-
-  <tr>
-
-    <td><span class="pp-action-wrap"><a class="product-page" href="gutterglove-ultra">View Gutterglove Ultra</a></span></td> 
-  
-    <td><span class="pp-action-wrap"><a class="product-page" href="gutterglove-pro">View Gutterglove Pro</a></span></td>
-
-    <td><span class="pp-action-wrap"><a class="product-page" href="gutterglove-icebreaker">View Gutterglove IceBreaker</a></span></td>
-
-
-
-  </tr>
-
-</table>
-
+<table class="product-comparison">
+
+  <tbody><span class="iceheated">Heated</span>
+    <!-- Results table headers -->
+    <tr>
+      <th class="rowhead"></th>
+      <th class="cfinclude"><span class="xs">Standard</span>Foam</th>
+      <th class="cfinclude"><span class="xs">Standard</span>Reverse Curve</th>
+      <th class="cfinclude"><span class="xs">Micro Mesh</span>Gutterglove Ultra</th>
+      <th class="cfinclude"><span class="xs">Micro Mesh</span>Gutterglove Pro</th>
+      <th class="cfinclude"><span class="xs">Gutterglove</span>IceBreaker</th>
+    </tr>
+    <tr class="product-flag">
+      <td class="rowhead"></td>
+      <td></td>
+      <td></td>
+      <td class="ultra"></td>
+      <td class="pro"></td>
+      <td class="icebreaker"></td>
+    </tr>
+    <tr class="product-data even">
+      <td class="rowhead"></td>
+      <td><p class="crop"><img src="<?php echo get_template_directory_uri(); ?>/images/foam-filter.jpg" alt="Foam Gutter Guard" /></p></td>
+      <td><p class="crop"><img src="<?php echo get_template_directory_uri(); ?>/images/reversecurve.gif" alt="Reverse Curve" /></p></td>
+      <td><p class="crop"><img src="<?php echo get_template_directory_uri(); ?>/images/guttergloveultra.jpg" alt="Gutterglove Ultra" /></p></td>
+      <td><p class="cropmore"><img src="<?php echo get_template_directory_uri(); ?>/images/gutterglovepro.jpg" alt="Gutterglove Pro" /></p></td>
+      <td><p class="cropmore"><img src="<?php echo get_template_directory_uri(); ?>/images/guttergloveicebreaker.jpg" alt="Gutterglove IceBreaker" /></p></td>
+    </tr>
+	<tr class="product-data odd">
+	  <td class="rowhead"></td>
+	  <td></td>
+	  <td></td>
+	  <td><a title="View Gutterglove Ultra" href="<?php get_site_url(); ?>/gutter-guards/gutterglove-ultra">View Product</a></td>
+	  <td><a title="View Gutterglove Pro" href="<?php get_site_url(); ?>/gutter-guards/gutterglove-pro">View Product</a></td>
+	  <td><a title="View Gutterglove IceBreaker" href="<?php get_site_url(); ?>/gutter-guards/gutterglove-icebreaker">View Product</a></td>
+	</tr>
+    <tr class="product-data odd">
+      <td class="rowhead">Stainless Steel</td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+    </tr>
+    <tr class="product-data even">
+      <td class="rowhead">Aluminum Frame</td>
+      <td></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+    </tr>
+    <tr class="product-data odd">
+      <td class="rowhead">Filters 150' Rainfall/hr</td>
+      <td></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+    </tr>
+    <tr class="product-data even">
+      <td class="rowhead">Made in USA</td>
+      <td></td>
+      <td></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+    </tr>
+    <tr class="product-data odd">
+      <td class="rowhead">Anodized Steel</td>
+      <td></td>
+      <td></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+    </tr>
+    <tr class="product-data even">
+      <td class="rowhead">316 Stainless Steel</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+    </tr>
+    <tr class="product-data odd">
+      <td class="rowhead">1" Support Frame</td>
+      <td></td>
+      <td></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+    </tr>
+    <tr class="product-data even">
+      <td class="rowhead">Fits Any Roof Type</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><span class="yes">Yes</span></td>
+    </tr>
+    <tr class="product-data odd">
+      <td class="rowhead">Fits Any Gutter Type</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><span class="yes">Yes</span></td>
+      <td><span class="yes">Yes</span></td>
+    </tr>
+    <tr class="product-data even">
+      <td class="rowhead">Heated Gutter Guard</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><span class="yes">Yes</span></td>
+    </tr>
+	<tr class="product-data odd">
+	  <td class="rowhead"></td>
+	  <td></td>
+	  <td></td>
+	  <td><a title="View Gutterglove Ultra" href="<?php get_site_url(); ?>/gutter-guards/gutterglove-ultra">View Product</a></td>
+	  <td><a title="View Gutterglove Pro" href="<?php get_site_url(); ?>/gutter-guards/gutterglove-pro">View Product</a></td>
+	  <td><a title="View Gutterglove IceBreaker" href="<?php get_site_url(); ?>/gutter-guards/gutterglove-icebreaker">View Product</a></td>
+	</tr>
+  </tbody>
+
+</table><!-- product-comparison -->
 
 </div><!-- .title-grade -->
 <div class="clear"></div>

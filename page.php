@@ -1,4 +1,9 @@
 <?php get_header(); ?> 
+
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <div id="main-subpage">		
 	<div class="columns">      
     <div class="narrowcolumn-bare singlepage">

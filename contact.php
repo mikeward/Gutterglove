@@ -4,6 +4,11 @@
  *Template name: Contact
  */
 include (TEMPLATEPATH . '/header-products.php'); ?>
+
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <div id="main-subpage">		
 	<div class="columns div-slice">      
     <div class="narrowcolumn-bare singlepage contact">
@@ -27,19 +32,23 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
         <h2>Email Us Online</h2>
         <h3 class="cfinclude-b nospace">Anytime, 7 Days A Week.</h3>        
         <p>Fill out the form below to contact us by email at any time.</p><br />
-                <form id="sample-form">
+		
+<form id="sample-form" method="POST" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" name="FrontPage_Form1" onSubmit="return FrontPage_Form1_Validator(this)">		
+<input type=hidden name="oid" value="00DE0000000IyKu">
+<input type=hidden name="00NE0000000IE0M" value="1">
+<input type=hidden name="lead_source" value="Gutterglove Contact">
+<input type=hidden name="retURL" value="http://gutterglove.com/thank-you.html">
+		
 				<label>Name</label><br />
-<input type="text" class="fad-name" /><br />
+<input type="text" class="fad-name" name="first_name" /><br />
 <label>Email</label><br />
-<input type="text" class="fad-email" /><br />
+<input type="text" class="fad-email" name="email" /><br />
 <label>Phone</label><br />
-<input type="text" class="fad-phone" /><br />
-<label>City</label><br />
-<input type="text" class="fad-city" /><br />
+<input type="text" class="fad-phone" name="phone" /><br />
 <label>State</label><br />          
                   <div class="my-skinnable-select">
-      <select name="name">
-<option value="" selected>Select</OPTION>
+      <select name="state">
+<option value="" selected>Select</option>
 <option VALUE="AL">Alabama</option>
 <option VALUE="AK">Alaska</option>
 <option VALUE="AZ">Arizona</option>
@@ -107,13 +116,12 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
       </select>
     </div><br />
 <label>Zip</label><br />          
-<input type="text" class="fad-zip" /><br />
-<label>Message</label><br />  
-<textarea type="text" class="message" /></textarea>
-<button class="submit-std blk-pattern action-blue cu-place">Submit</button>
+<input type="text" class="fad-zip" name="zip" /><br />
+<label>Message</label>
+<textarea name="00NE0000000IBjw"></textarea>
+<input type="submit" class="submit-std blk-pattern action-blue cu-place" name="submit" value="submit" />
 </form>
-                
-                
+           
 			</div>	    
 			<?php comments_template( '', true ); ?>      	
 	<?php endwhile; ?>		
@@ -129,8 +137,9 @@ include (TEMPLATEPATH . '/header-products.php'); ?>
    <br />
            <div class="c-wrap phone-case">
     <h2>Phone Support</h2>
-    <p>Toll Free: 877-662-5644<br />Support: 916-624-5000</p>
+    <p>Toll Free: 877-662-5644<br />USA Work: 916-624-5000</p>
         </div>
+
 
     </div>    
 <div class="clear"></div>

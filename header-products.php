@@ -99,18 +99,15 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 
 <body <?php body_class(); ?>>
 
-<?php
-if ( is_user_logged_in() ) {
-    echo '';
-} else {
-    echo '<a class="dd-bttn" href="' . get_site_url() . '/dealer-dashboard">Login</a>';
-}
-?>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=294701663931251";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="header-container">
 <?php include ('header-nav.php'); ?>
 </div><!-- #header-container -->
-
-<div class="content-pad">
-
-<div class="clear"></div>

@@ -1,19 +1,36 @@
 <?php get_header();?>      
 
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <?php 
 $t_show_post = t_get_option( "t_show_post" );		
 ?>    
 <div id="main-subpage">		
-	<div class="columns">
+	<div class="columns div-slice">
      <div class="narrowcolumn-bare">
-	 		<h1 class="page spacer">Gutterglove News Center <span class="grey">| Archives</span></h1>
+	 		<h1 class="page spacer">Gutterglove News Center <span class="grey">| Archive</span></h1>
      <?php if (have_posts()) : ?>
      <?php while (have_posts()) : the_post(); ?>							
 			<div <?php post_class();?>>
-            	
+				
                 <div class="title">
+				
+								                <div class="timeblock"><span class="tmonth"><?php the_time('M'); ?></span><span class="tdate"><?php the_time('j'); ?></span> </div> 
+				
+                <span class="metacase">
+                                <small><?php _e('Posted on','nattywp'); ?> <?php the_time('M jS, Y') ?> <?php _e('in','nattywp'); ?> <?php the_category(' | ');?> <?php edit_post_link(__('Edit','nattywp'), ' | ', ''); ?></small> 
+			<small class="cc"> |<?php
+$commentscount = get_comments_number();
+if($commentscount == 1): $commenttext = 'comment'; endif;
+if($commentscount > 1 || $commentscount == 0): $commenttext = 'Comments'; endif;
+echo ' '.$commentscount.' '.$commenttext.'';
+?></small>
+</span><!-- .metacase -->
+				
 				<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-                <small><?php _e('Posted by','nattywp'); ?> <span class="author"><?php theme_get_profile() ?></span> <?php _e('in','nattywp'); ?> <?php the_category(' | ');?> - (<?php comments_popup_link(__('0 Comments', 'nattywp'), __('1 Comments', 'nattywp'), __('% Comments', 'nattywp')); ?>)</small> <?php edit_post_link(__('Edit','nattywp'), ' | ', ''); ?>
+                
                 </div>              
 				<div class="entry">
           <?php 
@@ -21,10 +38,10 @@ $t_show_post = t_get_option( "t_show_post" );
                       the_post_thumbnail();} 
                   if ($t_show_post == 'no') {//excerpt  
                          get_thumb('Image','130','85','small-image', '<div class="thumb">', '</div>' );                   
-                         the_excerpt();  
+                         the_advanced_excerpt('length=350&use_words=0&finish_sentence=1&no_custom=1&add_link=0&ellipsis=%26hellip;&allowed_tags=iframe');   
                   } else { //fullpost 
                         t_show_video($post->ID);
-                        the_content();                    
+                        the_advanced_excerpt('length=350&use_words=0&finish_sentence=1&no_custom=1&add_link=0&ellipsis=%26hellip;&allowed_tags=iframe&exclude_tags=img,p,strong');                    
                   } ?>
            <div class="clear"></div>
         </div>              
@@ -34,7 +51,7 @@ $t_show_post = t_get_option( "t_show_post" );
 				</p>
 			</div>			
 	<?php endwhile; ?>	
-    		
+	
 		<div id="navigation">
 		<?php natty_pagenavi(); ?>
 		</div>    

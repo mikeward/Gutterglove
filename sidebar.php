@@ -1,9 +1,10 @@
 <ul>
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>							
 <li class="widget png_scale" id="categories_id">
+<div id="searchblock">
  <h2 class="blocktitle"><span>Search</span></h2>
  <?php get_search_form( $echo ); ?>
-
+</div><!-- #searchblock -->
  <h2 class="blocktitle"><span>Categories</span></h2>	
  <ul>
 <?php wp_list_categories('exclude=99,100&title_li='); ?>
@@ -15,7 +16,7 @@
 <?php wp_get_archives('type=monthly'); ?>
 </ul>
 </li>
-<li>
+
     
 <li class="widget png_scale" id="meta">
 <h2 class="blocktitle">Connect</h2>

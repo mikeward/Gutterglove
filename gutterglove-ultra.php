@@ -5,6 +5,10 @@
  */
 include (TEMPLATEPATH . '/header-product-page.php'); ?>
 
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <div id="main-products">		
 	<div class="columns">
 
@@ -87,14 +91,11 @@ if(class_exists('bcn_breadcrumb_trail'))
 		<h3>Product Sizes</h3>
 
 <table class="product-details-sub">
-	<tr class="lgrey">
-			<td class="juniorsize">2" to 3.5" gutters <span class="size">Junior Size</span></td>
-	</tr>
 	<tr class="grey">
-		<td class="standardsize">2" to 3.5" gutters <span class="size">Std Size</span></td>
+		<td class="standardsize">3.25" to 5.5" gutters <span class="size">Std Size</span></td>
 	</tr>
 	<tr class="red">
-		<td class="supersize">2" to 3.5" gutters <span class="size">Super Size</span></td>
+		<td class="supersize">5" to 7.5" gutters <span class="size">Super Size</span></td>
 	</tr>
 </table>
 

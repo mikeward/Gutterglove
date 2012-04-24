@@ -3,6 +3,11 @@
  *Template name: Become A Dealer
  */
  get_header( "gallery" ); ?> 
+
+<div class="content-pad">
+
+<div class="clear"></div> 
+ 
 <div id="main-subpage">		
 	<div class="columns">      
     <div class="widecolumn-bare singlepage">
@@ -32,7 +37,7 @@
 
 <div class="reason-cube rs-pricing right">
 <h3>Rock Bottom Pricing</h3>
-<p>With rock bottom dealership pricing available, there's no high start-up costs!
+<p>With rock bottom dealership pricing available, there's no high start-up costs!</p>
 </div>
 
 
@@ -87,7 +92,7 @@
 
 <div id="book-span">
 	<span class="book-inner-detail">
-	<h2 class="super cc-blue">Our 130 Page Book</h2><h2 class="cc-dgrey expur-space">All About Gutterglove</h2> 
+	<h2 class="super cc-blue">Our Detailed 130 Page Book</h2><h2 class="cc-dgrey expur-space">All About Gutterglove</h2> 
 	<p><span class="bookname">The Ultimate Gutter Protection System</span><br />Donec ultricies augue sit amet dui bibendum dictum. Nunc nec lacus nunc, viverra faucibus odio. Mauris aliquet tincidunt risus, vel gravida nibh semper et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin quis ullamcorper arcu.</p>
 		<ul>
 		<li>Over 400 detailed photos.</li>
@@ -100,7 +105,7 @@
 		<li>And more...</li>
 		</ul>
 	</span>
-	<img class="gutterglovebook" src="<?php echo get_template_directory_uri(); ?>/images/dealerbook-cover.jpg" />
+	<img class="gutterglovebook" src="<?php echo get_template_directory_uri(); ?>/images/dealerbook-cover.jpg" alt="Gutterglove Dealer Book" />
 </div>
 
 <div class="post">
@@ -117,7 +122,7 @@
 
 				<div class="prod-cube type-pro">
 				<h3 class="cc-green">Gutterglove Pro</h3>
-				<p> Our <strong>Best</strong> gutter guard. Higher priced.</p>
+				<p>Our <strong>Best</strong> gutter guard. Higher priced.</p>
 				<span class="product-control"><a href="#">View Product</a></span>
 				</div>
 
@@ -148,7 +153,7 @@
 			
 			<div class="option phone">
 				<h3>Give Us a Call</h3>
-				<span class="subline">Speak directly to an Account Executive<span class="dis-digit">1</a></span>
+				<span class="subline">Speak directly to an Account Executive<span class="dis-digit">1</span></span>
 				<h1 class="cfinclude center fadphone">877-662-5644</h1>
 			</div>
 

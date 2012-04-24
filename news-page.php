@@ -5,8 +5,12 @@
  */
  get_header(); ?> 
  
+<div class="content-pad">
+
+<div class="clear"></div>
+ 
 <div id="main-subpage">		
-	<div class="columns">      
+	<div class="columns div-slice">      
     <div class="narrowcolumn-bare singlepage">
 	
 	
@@ -18,8 +22,7 @@
             	
                 <div class="news-case">
                 <div class="timeblock"><span class="tmonth"><?php the_time('M'); ?></span><span class="tdate"><?php the_time('j'); ?></span> </div> 
-                <h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-                
+				
                 <span class="metacase">
                                 <small><?php _e('Posted on','nattywp'); ?> <?php the_time('M jS, Y') ?> <?php _e('in','nattywp'); ?> <?php the_category(' | ');?> <?php edit_post_link(__('Edit','nattywp'), ' | ', ''); ?></small> 
 			<small class="cc"> |<?php
@@ -29,8 +32,11 @@ if($commentscount > 1 || $commentscount == 0): $commenttext = 'Comments'; endif;
 echo ' '.$commentscount.' '.$commenttext.'';
 ?></small>
 </span><!-- .metacase -->
+                <h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
                 
-                </div>                
+
+                
+                </div><div class="clearspace"></div>                
 				<div class="entry">
             <?php                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                       the_post_thumbnail('thumbnail');} 

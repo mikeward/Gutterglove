@@ -20,6 +20,10 @@ if (strlen($custom_title)) {echo strip_tags(stripslashes($custom_title));}else {
 <?php /* Include the jQuery framework */ 
 wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments')) wp_enqueue_script( 'comment-reply' ); ?>
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+
+
+
 <?php wp_head(); ?>
 
 
@@ -38,9 +42,9 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 <?php } ?>
 
 
-<!-- Style sheets -->
+<!-- Style -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
-
+<link href='http://fonts.googleapis.com/css?family=Carme' rel='stylesheet' type='text/css'>
 
 <!--[if IE 6]>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/menu.js"></script>
@@ -67,20 +71,15 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
    echo 'body {background-image: url("'.$t_custom_background.'"); background-repeat: '.$t_background_repeat.'}';   
   } ?>
 </style>
-<link href='http://fonts.googleapis.com/css?family=Carme' rel='stylesheet' type='text/css'>
-
-
 
 <?php if (is_page('media') ) { 
 include 'gallery.php';?>
 <!--home page custom JS-->
     <script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/scrolljs.js"></script>
 <?php } ?>
-
 </head>
 
 <body <?php body_class(); ?>>
-
 <?php
 if ( is_user_logged_in() ) {
     echo '';
@@ -88,21 +87,6 @@ if ( is_user_logged_in() ) {
     echo '<a class="dd-bttn" href="' . get_site_url() . '/dealer-dashboard">Login</a>';
 }
 ?>
-
 <div id="header-container">
-<?php include ('header-nav.php'); ?>
+	<?php include ('header-nav.php'); ?>
 </div><!-- #header-container -->
-
-
-
-<?php
-if ( is_home() ) {
-    // This is a homepage
-} else {
-    // This is not a homepage
-	echo '<div class="content-pad">';
-}
-?>
-
-
-<div class="clear"></div>

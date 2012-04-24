@@ -104,7 +104,3 @@ include 'gallery.php';?>
 
 </div><!-- #head-section -->
 </div><!-- #header-container -->
-
-<div class="content-pad">
-
-<div class="clear"></div>

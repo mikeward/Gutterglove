@@ -5,6 +5,10 @@
  */
  get_header(); ?> 
  
+<div class="content-pad">
+
+<div class="clear"></div>
+
 <div id="main-homeowner">		
            	<h1 class="page"><?php the_title(); ?></h1>
 	<div class="columns div-slice">      
