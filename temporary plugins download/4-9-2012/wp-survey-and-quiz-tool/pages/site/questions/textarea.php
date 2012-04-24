@@ -1,1 +1,0 @@
-<p><textarea rows="6" cols="50" name="answers[<?php echo $questionKey; ?>][]"><?php if (!empty($givenAnswer)) { echo stripcslashes(current($givenAnswer)); }?></textarea></p>
