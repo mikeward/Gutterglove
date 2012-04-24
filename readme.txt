@@ -1,3 +1,5 @@
-Wordpress Theme developed by Mike Ward (dreamcu.be)
+Wordpress Theme developed by Mike Ward (dreamcu.be). Bare Core frame by NattyWP.
 
-This is the new corporate theme under development for Gutterglove.
+New Corporate website theme under development for Gutterglove, Inc.
+
+First Push for project Jan 2012.
