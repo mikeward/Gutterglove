@@ -7,7 +7,7 @@
 </div><!-- #searchblock -->
  <h2 class="blocktitle"><span>Categories</span></h2>	
  <ul>
-<?php wp_list_categories('exclude=99,100&title_li='); ?>
+<?php wp_list_categories('exclude=1,8&title_li='); ?>
 </ul>		
 </li>
 <li class="widget png_scale" id="text_id">
