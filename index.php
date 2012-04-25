@@ -65,7 +65,7 @@ $t_show_post = t_get_option ("t_show_post");
         <div class="narrowcolumn">
 	<div class="news-container">
      	<h2 class="title">In the News</h2>
-     <?php if (have_posts()) :  query_posts( 'posts_per_page=4' );  ?>
+     <?php if (have_posts()) :  query_posts( 'cat=3&posts_per_page=4' );  ?>
      <?php while (have_posts()) : the_post(); ?>							
 			<div <?php post_class();?>>
             	
