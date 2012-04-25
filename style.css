@@ -19,7 +19,9 @@ License URI:   http://www.gnu.org/licenses/gpl-2.0.html
 @font-face { font-family: Vegur; font-weight: 400; src: url('include/font/Vegur-R0602.otf'); } @font-face { font-family: Vegur; font-weight: 900; src: url('include/font/Vegur-B0602.otf'); }
 @font-face { font-family: Vegur; font-weight: 200; src: url('include/font/Vegur-L0602.otf'); } @font-face { font-family: Vegur; font-weight: 700; src: url('include/font/Vegur-M0602.otf'); }
 
+/* -----------------------------------*/
 /***** Standard Scheme *****/
+/* -----------------------------------*/
 * {margin: 0pt; padding: 0pt; }
 html { background: url(images/background/html_bg.jpg) repeat; }
 body {font-family:Arial, Helvetica, sans-serif; font-size:12px; background:url(images/background/gg_bg.jpg) repeat-x; line-height:18px;}
@@ -47,7 +49,9 @@ a:hover { color: rgb(247, 83, 66); cursor: pointer; text-decoration: none; }
 .page-template-news-page-php .entry p a.read_more { display: block; clear: both; }
 .singlepage .entry { padding-bottom: 10px; border-bottom: 1px dotted #e5e5e5; }
 
-/***** Color & Patterns *****/
+/* -----------------------------------*/
+/***** Font Colors & Patterns *****/
+/* -----------------------------------*/
 .blk-pattern { background: url(images/background/block_pattern.png) repeat; }
 .action-blue { background-color: #3D7294; }
 .action-blue:hover { background-color: #3d3d3d; }
@@ -71,7 +75,9 @@ color: #fff;
 .drk-bg { background: #CCC; border-radius: 5px; -moz-border-radius: 5px; }
 .expur-space { margin-top: -10px; }
 
+/* -----------------------------------*/
 /***** Form *****/
+/* -----------------------------------*/
 .tab-title {display:none; overflow:hidden; visibility:hidden;}
 placeholder { color: #b0b0b0;}
 input::-webkit-input-placeholder {color: #b0b0b0; }
@@ -81,27 +87,26 @@ input:-moz-placeholder { color: #b0b0b0; }
 .page-template-become-a-dealer-php input:-moz-placeholder { color: #777; }
 .covershade { background: url(images/background/covershade.png) 50% 0; width: 100%; height: 500px; }
 
-/* Fonts */
+/* -----------------------------------*/
+/***** Fonts *****/
+/* -----------------------------------*/
 h1 {font-size: 30px;}
 h1.page { color: #3d7294; border-bottom: 1px dotted #ccc; padding-bottom: 10px; max-width: 930px; }
 .post h1.page { padding-bottom: 20px; }
 #main-ggshow h1.page, #main-testimonials h1.page { color: #fff; }
+.page-template-rain-harvesting-php h1.page { padding: 0; }
+.page-template-rain-harvesting-php .post h2 { margin: 5px 0 10px; }
 h1, h2 , h3, h4, h5, h6 { font-family: Vegur, Arial, Helvetica, Sans-serif; line-height:30px; font-weight: 200; text-decoration: none; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { text-decoration: none; }
 h2 {font-size: 1.6em; margin: 0; }
 h2 a { color:#c4c4c4; font-size:28px; font-weight:normal;}
-
-.page-template-rain-harvesting-php h1.page { padding: 0; }
-.page-template-rain-harvesting-php .post h2 { margin: 5px 0 10px; }
 h3 {font-size: 1.3em; padding: 0; margin: 0;}
+.entry h3 { font-size: 1.6em;}
 h3 { line-height: 22px; }
 h5 { font-size: 14px; color: #fff; font-weight: bold; display: block; margin-left: 3px; }
-
 .news-case { padding: 0; margin-bottom: -20px; }
-
 p { font-size: 13px; }
 .entry { padding: 0; margin: 0; }
-
 
 /* Fonts Home Styling */
 .home .news-case h2 a, .home .news-case h2 a:visited { position: relative; top: -2px; left: 8px; font-size: 18px; color: #fff; }
@@ -121,7 +126,7 @@ h2, h2.title { font-size: 28px; color: #c4c4c4; margin-bottom: 15px; }
 span.grey { color: #ccc; }
 h2.super { font-size: 40px; }
 #headerimg .description, #sidebar h2, #wp-calendar caption, cite  {text-decoration: none;}
-#crp_related h2 { display: inline-block; float: none; }
+#crp_related h2 { display: inline-block; float: none; margin: 10px 10px 0 20px; color: #fff; }
 
 /* Font for Posts */
 .post h2, .post h2 a {color: #4D4D4F; clear: left; padding-right: 15px; margin-bottom: 0px; }
@@ -336,7 +341,9 @@ body.home #main {
 	line-height:135%; 
 	padding-bottom:5px; margin:25px 0 10px;
 }
-.entry h3,
+.entry h3 {
+	margin:25px 0 10px;
+}
 .entry h4,
 .entry h5 {
 	font-weight:normal; 
@@ -1407,6 +1414,8 @@ h2.options { background: url(images/icons/options16.png) 0 7px no-repeat; paddin
 h2.photos { background: url(images/icons/photos16.png) 0 7px no-repeat; padding-left: 25px; font-weight: normal; }
 ul#benefits { width: 100%; padding: 5px 0; margin-bottom: 30px; list-style: square url(images/bullets/benefits_bullet.gif); }
 ul#benefits li { list-style: square url(images/bullets/benefits_bullet.gif); display: inline; float: left; width: 235px; padding: 4px 10px; margin: 0 5px 2px 0; list-style: none; border-bottom: 1px #f9f9f9 solid; font-size: 12px; color: #666; }
+.options { list-style: square; color: #555; margin-left: 20px; margin-bottom: 10px; }
+.options li { padding: 4px 0; }
 object#otvPlayer { margin: 10px 0 10px 10px; background-color: #f9f9f9; position: relative; z-index: 1; }
 span.ggproduct-features a, span.ggproduct-features a:visited { display: block; width: 335px; position: relative; margin-top: 20px; left: -20px; float: left; height: 18px; background: #3d3d3d url(images/background/block_pattern.png) repeat; padding: 10px 0 12px 30px; border-radius: 0 3px 3px 0; -moz-border-radius: 0 3px 3px 0; color: #fff; text-decoration: none; font-size: 20px; border-left: 5px #000 solid; }
 span.ggproduct-features a:hover { background: #3d7294 url(images/background/block_pattern.png) repeat; }
@@ -1414,6 +1423,7 @@ body.home span.ggproduct-features a, body.home span.ggproduct-features a:visited
 body.home span.ggproduct-features a:hover { background: #4a4a4a url(images/background/block_pattern.png) repeat; color: #fff; }
 span.title { font-size: 14px; color: #fff; font-weight: bold; display: block; margin-left: 3px; padding-top: 10px; }
 .even span.title { padding: 10px 15px 0 0; }
+.page-navigation .page.current { background: #555; border: 1px solid #666; }
 
 a.gallerypic{ width:60px; text-decoration:none; position:relative;  }
 a.gallerypic span.zoom-icon{ visibility:hidden; position:absolute; left:0px; top:-48px; filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity: 0.7; opacity: 0.7; }
@@ -1887,6 +1897,9 @@ li.comment #respond .comment-form-url {background:#fff;}
 li.comment #respond #comment-form p {padding:5px;}
 #respond span.required {display:none;}
 .commentlist .bypostauthor {}
+#crp_related { background: #0a3974 url(images/background/crp_related.png) repeat-x 0 -10px; border-radius: 5px; -moz-border-radius: 5px; padding-bottom: 10px; margin-top: 20px; }
+#crp_related a, #crp_related a:visited { color: #dcebff; font-size: 14px; }
+#crp_related a:hover, #crp_related a:active { color: #fff; }
 
 
 /* -----------------------------------*/
