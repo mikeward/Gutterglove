@@ -18,12 +18,12 @@ include (TEMPLATEPATH . '/header-product-page.php'); ?>
 
 	<div id="topproduct-header">
 	<h2>Gutterglove IceBreaker</h2>
-	<h3 class="description">Gutterglove IceBreaker is a heated hi-grade gutter protection system. Rated best score by North America’s leading consumer reporting magazine for their September 2010 and May 2011 magazine issues.</h3>
+	<h3 class="description">Gutterglove IceBreaker is a heated hi-grade gutter protection system. The IceBreaker is the single most effective gutterguard on the market today when it comes to filtering debris in snow ridden environments.</h3>
 			<div class="product-step">
 				<ul>
 					<li><a class="scroll" href="#photos">Product Photos</a></li>
 					<li><a onclick="window.open(this.href,'PerformanceVideo','resizable=no,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,width=450,height=375,status'); return false" href="http://www.gutterglove.com/gutterguards/video_youtube_performance.html">Watch Performance Video</a></li>
-					<li><a href="<?php get_site_url(); ?>/test/contact-us">Request a Quote</a></li>
+					<li><a href="<?php get_site_url(); ?>/find-a-dealer">Request a Quote</a></li>
 				</ul>
 			</div>
 			
@@ -97,14 +97,11 @@ if(class_exists('bcn_breadcrumb_trail'))
 </table>
 
 		<h3>Stainless Steel Mesh</h3>
-		<p>The Gutterglove Pro features a stainless steel 90 mesh face that is turns to be 8100 mesh per inch. Aenean eu leo urna, vel convallis diam.</p>
+		<p>The Gutterglove IceBreaker features a woven 316 stainless steel 14 or 24 mesh resulting in 196 or 576 holes per square inch.</p>
 
 		<h3>Aluminum Channel Frame</h3>
-		<p>Nam placerat nibh eget augue ultricies eu venenatis sem dignissim. Pellentesque sollicitudin feugiat tempor. Fusce eu nunc erat. Aliquam et libero quam. </p>
+		<p>The Gutterglove IceBreaker is supported by a 6063 Extruded Aluminum frame. The frame is also anodized for added protection from mixed metals and the elements.</p>
 
-		<h3>Construction</h3>
-		<p>Aliquam et libero quam. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. </p>
-		
 		<h3>How It Works</h3>
 		<div id="containing-outbox">
 
@@ -134,12 +131,17 @@ if(class_exists('bcn_breadcrumb_trail'))
 
 	<div class="right-fill-case">
 		<h2 class="info">Product Description</h2>
-		<p>The Gutterglove Pro features a stainless steel 90 mesh face that is turns to be 8100 mesh per inch. Nam placerat nibh eget augue ultricies eu venenatis sem dignissim. Pellentesque sollicitudin feugiat tempor. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. Fusce eu nunc erat. Aliquam et libero quam. </p>
-		
-		<p>Nam placerat nibh eget augue ultricies eu venenatis sem dignissim. Pellentesque sollicitudin feugiat tempor. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. Fusce eu nunc erat. Aliquam et libero quam. </p>
+		<p>Gutterglove was the first company to pioneer the concept of mating a heat cable with a gutterguard. IceBreaker is comprised of an extruded Aluminum frame complimented by a 316 stainless steel mesh. The IceBreaker is the single most effective gutterguard on the market today when it comes to filtering debris in snow ridden environments!  By utilizing the strength of the frame and filtering ability of the mesh, the IceBreaker filters debris from entering the gutter while standing up to heavy snow and debris loads. It is easily installed on any roof or gutter type and has a very low profile design making it attractive for homeowners concerned with aesthetics. The IceBreaker is an ideal choice for any homeowner wishing to not only keep their gutters clean but also to reduce ice and snow build up on the gutter.   </p>
 		
 		<h2 class="options">Options</h2>
-		<p>The Gutterglove Pro features a stainless steel 90 mesh face that is turns to be 8100 mesh per inch. Nam placerat nibh eget augue ultricies eu venenatis sem dignissim. Pellentesque sollicitudin feugiat tempor. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. Fusce eu nunc erat. Aliquam et libero quam. </p>
+		
+		<p><strong>The Gutterglove IceBreaker is available in (2) different configurations.</strong></p>
+		
+		<ol class="options">
+			<li>IceBreaker Standard 24 mesh (up to 5.5" inch gutters, fine mesh)</li>
+			<li>IceBreaker Standard 14 mesh (up to 5.5" inch gutters, larger mesh)</li>
+		</ol>
+		
 </div>
 		
 	<div class="right-fill-case" id="photos">

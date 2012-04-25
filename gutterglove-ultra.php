@@ -18,12 +18,12 @@ include (TEMPLATEPATH . '/header-product-page.php'); ?>
 
 	<div id="topproduct-header">
 	<h2>Gutterglove Ultra</h2>
-	<h3 class="description">Gutterglove Pro is a hi-grade gutter protection system. Rated best score by North America’s leading consumer reporting magazine for their September 2010 and May 2011 magazine issues.</h3>
+	<h3 class="description">By utilizing the strength of the frame and filtering ability of the mesh, the Ultra filters debris from entering the gutter while standing up to heavy snow and debris loads.</h3>
 			<div class="product-step">
 				<ul>
 					<li><a class="scroll" href="#photos">Product Photos</a></li>
 					<li><a onclick="window.open(this.href,'PerformanceVideo','resizable=no,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,width=450,height=375,status'); return false" href="http://www.gutterglove.com/gutterguards/video_youtube_performance.html">Watch Performance Video</a></li>
-					<li><a href="<?php get_site_url(); ?>/test/contact-us">Request a Quote</a></li>
+					<li><a href="<?php get_site_url(); ?>/find-a-dealer">Request a Quote</a></li>
 				</ul>
 			</div>
 			
@@ -100,14 +100,11 @@ if(class_exists('bcn_breadcrumb_trail'))
 </table>
 
 		<h3>Stainless Steel Mesh</h3>
-		<p>The Gutterglove Pro features a stainless steel 90 mesh face that is turns to be 8100 mesh per inch. Aenean eu leo urna, vel convallis diam.</p>
+		<p>The Gutterglove Ultra features a woven corrugated 316 stainless steel 30 or 50 mesh resulting in 900 or 2500 holes per square inch.</p>
 
 		<h3>Aluminum Channel Frame</h3>
-		<p>Nam placerat nibh eget augue ultricies eu venenatis sem dignissim. Pellentesque sollicitudin feugiat tempor. Fusce eu nunc erat. Aliquam et libero quam. </p>
-
-		<h3>Construction</h3>
-		<p> Aliquam et libero quam. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. </p>
-		
+		<p>The Gutterglove Ultra is supported by a 6063 Extruded Aluminum frame. The frame is also anodized for added protection from mixed metals and the elements.</p>
+	
 		<h3>How It Works</h3>
 		<div id="containing-outbox">
 
@@ -137,13 +134,18 @@ if(class_exists('bcn_breadcrumb_trail'))
 
 	<div class="right-fill-case">
 		<h2 class="info">Product Description</h2>
-		<p>The Gutterglove Pro features a stainless steel 90 mesh face that is turns to be 8100 mesh per inch. Nam placerat nibh eget augue ultricies eu venenatis sem dignissim. Pellentesque sollicitudin feugiat tempor. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. Fusce eu nunc erat. Aliquam et libero quam. </p>
-		
-		<p>Nam placerat nibh eget augue ultricies eu venenatis sem dignissim. Pellentesque sollicitudin feugiat tempor. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. Fusce eu nunc erat. Aliquam et libero quam. </p>
+		<p>The Gutterglove Ultra is comprised of an extruded Aluminum frame complimented by a 316 stainless steel mesh. Aside from the Gutterglove Pro it is the single most effective gutterguard on the market today!  By utilizing the strength of the frame and filtering ability of the mesh, the Ultra filters debris from entering the gutter while standing up to heavy snow and debris loads. It is easily installed on any roof or gutter type and has a very low profile design making it attractive for homeowners concerned with aesthetics. The Ultra was designed in the shadow the Gutterglove Pro to give homeowners and contractors a slightly less expensive alternative to the Pro without sacrificing function or durability. Although very similar in Nature and design to the Pro, the Gutterglove Ultra uses a thinner frame, a 1/2" shorter surface area for the screen and a corrugated mesh for added structural support. </p>
 		
 		<h2 class="options">Options</h2>
-		<p>The Gutterglove Pro features a stainless steel 90 mesh face that is turns to be 8100 mesh per inch. Nam placerat nibh eget augue ultricies eu venenatis sem dignissim. Pellentesque sollicitudin feugiat tempor. Aenean eu leo urna, vel convallis diam. Etiam at diam velit. Fusce eu nunc erat. Aliquam et libero quam. </p>
-</div>
+		<p><strong>The Gutterglove Ultra is available in (4) different configurations:</strong></p>
+
+		<ol class="options">
+			<li>Ultra Standard 50 mesh (up to 5.5" inch gutters, fine mesh)</li>
+			<li>Ultra Standard 30 mesh (up to 5.5" inch gutters, larger mesh)</li>
+			<li>Ultra Super 50 mesh (up to 7.5" gutters, finer mesh)</li>
+			<li>Ultra Super 30 mesh (up to 7.5" gutters, larger mesh)</li>
+		</ol>
+	</div>
 		
 	<div class="right-fill-case" id="photos">
 	<h2 class="photos">Gutterglove Ultra Photos</h2>
