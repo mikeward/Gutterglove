@@ -10,7 +10,7 @@
 			<ul id="top_nav">
 				<li><a title="Contact" class="round-right" href="<?php get_site_url(); ?>/contact-us">Contact</a></li>
 				<li><a title="Gallery" href="<?php get_site_url(); ?>/media">Gallery</a></li>
-				<li><a title="News" href="<?php get_site_url(); ?>/news">News</a></li>
+				<li><a title="News" href="<?php get_site_url(); ?>/category/news">News</a></li>
 				<li><a title="About" href="<?php get_site_url(); ?>/about">About</a></li>
 				<li><a title="Products" href="<?php get_site_url(); ?>/gutter-guards">Products</a></li>
 			</ul>
