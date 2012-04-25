@@ -127,6 +127,7 @@ span.grey { color: #ccc; }
 h2.super { font-size: 40px; }
 #headerimg .description, #sidebar h2, #wp-calendar caption, cite  {text-decoration: none;}
 #crp_related h2 { display: inline-block; float: none; margin: 10px 10px 0 20px; color: #fff; }
+#crp_related li { padding-right: 51px; }
 
 /* Font for Posts */
 .post h2, .post h2 a {color: #4D4D4F; clear: left; padding-right: 15px; margin-bottom: 0px; }
@@ -144,7 +145,7 @@ h2.super { font-size: 40px; }
 .page .entry p, .home .entry p, .search .entry p {margin-bottom:15px; margin-top: -8px; display: inline; clear: left; }
 .page .entry p { display: inline-block; }
 .page-template-news-page-php .entry p { display: block; }
-.post .entry p { font-size: 14px; line-height: 20px; padding-bottom: 16px; }
+.post .entry p { font-size: 14px; line-height: 22px; padding-bottom: 16px; }
 .search .entry p {color: #4D4D4F; }
 .search .entry img { float: left; margin: -20px 0 10px -10px;}
 .page-template-about-php .entry p {margin-bottom:15px; float: none; margin-top: 0; }
@@ -1850,7 +1851,7 @@ cite .note, cite .note a { font-size:10px; font-weight:bold; color:#454547;}
 /* -----------------------------------*/
 /***** Image in Post *****/
 /* -----------------------------------*/
-.entry img {padding:0 5px 10px 0; max-width:540px; max-height:auto; height:auto; } /** Original max-width was 590px **/
+.entry img {padding:0 5px 10px; max-width:540px; max-height:auto; height:auto; } /** Original max-width was 590px **/
 .entry .thumb img { padding:0px 10px 0px 0px;}
 .fullwidth { width: 950px; }
 
